@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.overlay{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+p{
+    line-height: 1.8em;
+    margin-bottom: 2em;
+}
+.dell-icon{
+    width: 1.5em;
+    margin-right: 0.5em;
+}
+.dell-icon.large{
+    width:  2em;
+    margin-right: 0.35em;
+    margin-top: -0.5em;
+    margin-bottom: -0.5em;
+}
+.dell-icon.button{
+    width: 2.5em;
+    margin-right: 0em;
+    margin-top: 0.2em;
+    margin-bottom: 0em;
+}
+.dell-icon.big-button{
+    width: 3em;
+    margin-right: 0em;
+    margin-top: 0.2em;
+    margin-bottom: 0em;
+}
+.dell{
+    background-color: rgb(0,118,206);
+}
+.dell.darken-1{
+    background-color: rgb(0,68,124);
+}
+.dell.lighten-1{
+    background-color: rgb(65,182,230);
+}
+.dell.accent-1{
+    background-color: rgb(110,37,133);
+}
+.dell.accent-2{
+    background-color: rgb(183,41,90);
+}
+.dell.accent-3{
+    background-color: rgb(238,100,17);
+}
+.dell.accent-4{
+    background-color: rgb(206,17,38);
+}
+.dell.accent-5{
+    background-color: rgb(110,162,4);
+}
+.dell.accent-6{
+    background-color: rgb(242,175,0);
+}
+.dell.neutral-1{
+    background-color: rgb(68,68,68);
+}
+.dell.neutral-2{
+    background-color: rgb(128,128,128);
+}
+.dell.neutral-3{
+    background-color: rgb(200,201,199);
+}
+.dell.neutral-4{
+    background-color: rgb(238,238,238);
+}
+.dell.neutral-5{
+    background-color: rgb(255,255,255);
+}
+
+.dell-text{
+    color: rgb(0,118,206);
+}
+.dell-text.darken-1{
+    color: rgb(0,68,124);
+}
+.dell-text.lighten-1{
+    color: rgb(65,182,230);
+}
+.dell-text.accent-1{
+    color: rgb(110,37,133);
+}
+.dell-text.accent-2{
+    color: rgb(183,41,90);
+}
+.dell-text.accent-3{
+    color: rgb(238,100,17);
+}
+.dell-text.accent-4{
+    color: rgb(206,17,38);
+}
+.dell-text.accent-5{
+    color: rgb(110,162,4);
+}
+.dell-text.accent-6{
+    color: rgb(242,175,0);
+}
+.dell-text.neutral-1{
+    color: rgb(68,68,68);
+}
+.dell-text.neutral-2{
+    color: rgb(128,128,128);
+}
+.dell-text.neutral-3{
+    color: rgb(200,201,199);
+}
+.dell-text.neutral-4{
+    color: rgb(238,238,238);
+}
+.dell-text.neutral-5{
+    color: rgb(255,255,255);
+}
+
+
+.assess-hover {
+    position: relative;
+    overflow: visible ;
+}
+
+.assess-hover:after {
+    content: "";
+    display: block;
+    border: 45px solid transparent;
+    border-bottom-color: rgb(0,68,124);
+    border-left-width: 25px;
+    border-right-width: 25px;
+    position: absolute;
+    left:calc(50% - 25px);
+    margin-top: 5px;
+    bottom: -25px;
+    width: 40px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blended PCBL : Reflection</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+
+	<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+  <link href="./css/styles.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6SDKK7N4JL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-6SDKK7N4JL');
+  </script> 
+</head>
+<body>
+	<nav class="dell"></nav>
+  <div class="parallax-container valign-wrapper white-text" style="max-height: 65vh;">
+      <div class="parallax">
+        <img src="./img/getty_700712193_la5320t-1280x1280.jpeg">
+        <div class="overlay"></div>
+      </div>
+      <h1 style="margin: 2em;">Reflection</h1>
+  </div>
+  	<div class="container">
+  		<div class="row" style="margin-top: 2em;">
+  			<div class="col s12 m10 offset-m1">
+  				<p>The questions below provide an opportunity for teams to reflect on levels of readiness.  You may want to complete this piece before completing the readiness assessment to understand various perspectives of different stakeholders.</p>
+  			</div>
+  			<div class="col s12 m10 offset-m1">
+  				<p><span style="font-weight: 700">Click any section below to begin.</span> All responses will be saved locally to your browser's memory; no data is sent or stored anywhere outside of your browser. If you refresh the page your answers will still be there, but if you clear your browser memory your answers will be deleted.</p>
+  			</div>
+  		</div>
+  	</div>
+	<div class="container">
+		<div class="row">
+      <div class="col s12 m10 offset-m1">
+  			<ul class="collapsible expandable" id="responses"></ul>
+        <table id="excelTable" style="display: none;"></table>
+        <div id="wordVersion" style="display: none;">
+          <h1>Readiness Reflection</h1>
+        </div>
+      </div>
+		</div>
+	</div>
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large dell accent-2 tooltipped" data-position="left" data-tooltip="Save (choose one)">
+      <!--<i class="large material-icons">file_download</i>-->
+      <img src="./icon/save_white-64px.png" class="dell-icon big-button">
+    </a>
+    <ul>
+      <li><a class="btn-floating dell accent-3 tooltipped word" data-position="left" data-tooltip="Save Responses for Word"><!--<i class="material-icons">text_fields</i>--><img src="./icon/doc-lines_white-64px.png" class="dell-icon button"></a></li>
+      <li><a class="btn-floating dell tooltipped excel" data-position="left" data-tooltip="Save Responses for Excel (CSV)"><!--<i class="material-icons">grid_on</i>--><img src="./icon/view-table_white-64px.png" class="dell-icon button"></a></li>
+      <li><a class="btn-floating dell accent-6 tooltipped pdf" data-position="left" data-tooltip="Save as PDF"><!--<i class="material-icons">save</i>--><img src="./icon/doc-manual_white-64px.png" class="dell-icon button"></a></li>
+      <li><a class="btn-floating dell accent-4 tooltipped print" data-position="left" data-tooltip="Print All"><!--<i class="material-icons">print</i>--><img src="./icon/printer_white-64px.png" class="dell-icon button"></a></li>
+    </ul>
+  </div>
+	
+	<footer class="page-footer dell darken-1" style="margin-top: 10em; padding-bottom: 1em;"></footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js" referrerpolicy="no-referrer"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

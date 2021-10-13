@@ -1,0 +1,1275 @@
+[
+	{
+		"title":"Purpose and Vision",
+		"description":"Defining your purpose and vision clarifies the compelling reason for undertaking this initiative and provides a shared focus for the work that follows. Having a clear pupose and vision is necessary for alignment between all initiative components.",
+		"icon":"filter_center_focus",
+		"dell-icon": "flag",
+		"background-color":"dell accent-5",
+		"text-color": "white-text",
+		"sections":[
+			{
+				"title":"Start with Your Why",
+				"description":"We have clearly defined a purpose and vision that includes the perspectives of critical stakeholders and articulates the compelling reason for undertaking this initiative.",
+				"responses":[
+					{
+						"question":"What is our compelling reason to undertake this initiative? What are the drivers?",
+						"subquestions":[
+							"What research and evidence can we use to identify our purpose and vision? What data can help us identify drivers?",
+							"What perspectives need to be a part of defining our purpose and vision? What critical conversations can help identify drivers?",
+							"Which stakeholders need to be included in this work?"
+						]
+					},
+					{
+						"question":"What roles do personalized, competency-based learning and blended learning play in achieving our purpose and vision? What purpose does blended learning serve in relation to personalized, competency-based learning?"
+					},
+					{
+						"question":"What are the benefits of taking action? What are the risks of not taking action?"
+					},
+					{
+						"question":"What will be the ultimate impact?",
+						"subquestions":[
+							"Who will be impacted, and how?",
+							"What is the impact for the district?"
+						]
+					},
+					{
+						"question":"How does the vision and mission of this initiative align with the broader work of our district?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"Our rationale for undertaking this initiative is clearly articulated.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We understand and have communicated the drivers for this initative.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"The relationships between personalized, competency-based learning and blended learning have been defined.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"The impact of implementation is clear to all stakeholders.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"This initiative is aligned with the strategic plan of our district.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[
+					{
+						"title":"The Hexagon: An Exploration Tool Hexagon Discussion & Analysis Tool Instructions (National Implementation Research Network)",
+						"url":"https://nirn.fpg.unc.edu/sites/nirn.fpg.unc.edu/files/imce/documents/NIRN%20Hexagon%20Discussion%20Analysis%20Tool_September2020_1.pdf",
+						"type":"article",
+						"description":"This tool is most commonly used in the exploration stage to evaluate the fit and feasibility of implementing programs or practices in a given context.  It includes the tool, guidance and instructions for team use, and guiding questions.",
+						"completion-time-min":10
+					},
+					{
+						"title":"Management and Operations of Online Programs (Aurora Institute)",
+						"url":"https://aurora-institute.org/wp-content/uploads/iNACOL_promising-practices-in-online-learning-management-and-operations.pdf",
+						"type":"article",
+						"description":"As part of the <i>Promising Practices in Online Learning</i> series, page 24 of this resource includes a checklist for prioritizing drivers related to online learning environments. Many of these are also relevant for blended learning.",
+						"completion-time-min":0
+					},
+					{
+						"title":"The Shifting Paradigm of Teaching: Personalized Learning According to Teachers (KnowledgeWorks)",
+						"url":"https://knowledgeworks.org/wp-content/uploads/2018/01/teacher-conditions.pdf",
+						"type":"article",
+						"description":"As districts shift to personalize learning for students, this resource provides insight into how that shift impacts teachers as well as district policies and practices related to curriculum, instruction, assessment, learning environments, professional learning, technology, data, and partnerships.",
+						"completion-time-min":0
+					},
+					{
+						"title":"Levers and Logic Models: A Framework to Guide Research and Design of High-Quality Competency-Based Education Systems (Aurora Institute)",
+						"url":"https://aurora-institute.org/resource/levers-and-logic-models-a-framework-to-guide-research-and-design-of-high-quality-competency-based-education-systems/",
+						"type":"article",
+						"description":"Use logic model frameworks to convey relationships between essential levers (outcomes, drivers and mediating factors) that inform the design of competency-based education systems and critical components of competency-based practice at four interdependent levels (student experience, professional practice of educators, district and school systems and culture).",
+						"completion-time-min":0
+					},
+					{
+						"title":"Six Tips for Engaging Your Community in the Visioning Process (KnowledgeWorks)",
+						"url":"https://knowledgeworks.org/resources/community-vision-personalized-learning/",
+						"type":"website",
+						"description":"This article speaks to strategies for involving a broad group of stakeholders, including neighbors, business owners, community developers, higher education partners, elected officials and parents in creating a vision for personalized learning.",
+						"completion-time-min":0
+					}
+				]
+			},
+			{
+				"title":"Consensus",
+				"description":"We understand the steps we must take to ensure that stakeholders have a common understanding and shared purpose and vision.",
+				"responses":[
+					{
+						"question":"How will we develop a culture that empowers stakeholders to engage in personalized, competency-based learning?",
+						"subquestions":[
+							"What underlying assumptions need to be addressed?",
+							"How can we identify and address beliefs, perceptions, biases, and mindsets brought to this work that may not align with implementation?"
+						]
+					},
+					{
+						"question":"How will we ensure stakeholders:",
+						"subquestions":[
+							"&bull; are aware of \"the Why\" -- of the drivers, opportunities, and goals for this initiative?",
+							"&bull; see value in the change?",
+							"&bull; are heard?",
+							"&bull; know what success looks like?",
+							"&bull; understand their roles are and how this will impact their work?",
+							"&bull; know that leadership is commited to the efforts?",
+							"&bull; view school and district leaders as a resource for removing/overcoming barriers?"
+						]
+					},
+					{
+						"question":"What are key terms and definitions for the initiative? What common definitions do we need to develop?",
+						"subquestions":[
+							"How do we define personalized, competency-based learning? ",
+							"How do we define blended learning?"
+						]
+					}
+				],
+				"assessment":[
+					{
+						"question":"We have idenitified and addressed the beliefs, perceptions, biases, and mindsets related to this work.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We have co-created and communicted the drivers, opportunities, and goals for personalized, competency-based learning.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We have developed a common language around core concepts.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[
+					{
+						"title":"Change Management for the Digital Leap (CoSN)",
+						"url":"https://www.cosn.org/sites/default/files/Change%20Management%20for%20the%20Digital%20Leap%20Draft%20Final%20053018_1.pdf",
+						"type":"article",
+						"description":"Engage in strategies that go beyond Project Management and focus on Culture Management including a focus on barriers to change, operationalizing your \"why\", iterating toward success, and making the change.",
+						"completion-time-min":10
+					}
+				]
+			},
+			{
+				"title":"Skills",
+				"description":"We have identified the expertise and knowledge needed to successfully implement the initiative and ways to address potential gaps in expertise.",
+				"responses":[
+					{
+						"question":"What expertise and knowledge are beneficial for planning and implementation efforts?"
+					},
+					{
+						"question":"Are there potential gaps in team expertise? If so, how will we fill those gaps?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"We have identified the expertise and knowledge needed for successful implementation.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We have identified potential gaps in expertise and strategies for addressing the gaps.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[
+					{
+						"title":"Engagement/Re-engagement of Stakeholders",
+						"url":"https://www.buildinitiative.org/Portals/0/Uploads/Documents/resource-center/community-systems-development/1A%202%20Engagement-Reengagement%20tool.pdf",
+						"type":"article",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Knowing the \"Why\": How do leaders communicate with new teachers around the purpose and vision of their innovative models? (The Learning Accelerator)",
+						"url":"https://practices.learningaccelerator.org/problem-of-practice/knowing-the-why",
+						"type":"article",
+						"description":"Connecting the \"why\" to professional learning can provide the contextual understanding to move the work forward.",
+						"completion-time-min":10
+					}
+				]
+			},
+			{
+				"title":"Resources",
+				"description":"We have identified the resources needed to successfully implement the initiative and ways to address areas where we lack necessary resources.",
+				"responses":[
+					{
+						"question":"What resources are needed to successfully achieve the purpose and vision?"
+					},
+					{
+						"question":"Are there areas where we need resources? If so, how will we fill those gaps?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"We have the resources needed, or are able to access the resources needed, to achieve our vision.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[
+					
+				]
+			},
+			{
+				"title":"Action Plan",
+				"description":"We have developed a clear action plan that identifies the steps and stakeholder input needed for achieving our goals/objectives and the criteria for evaluating success.",
+				"responses":[
+					{
+						"question":"What is the mission of this initiative?"
+					},
+					{
+						"question":"What are the goals and objectives of this initiative? What do we plan to achieve?"
+					},
+					{
+						"question":"What steps do we need to take to ensure that the initiative will result in an implementation:",
+						"subquestions":[
+							"&bull; that successfully provides personalized, competency-based learning?",
+							"&bull; that effectively uses blended learning to deliver this learning?",
+							"&bull; that is consistent with the initiative's purpose and vision?"
+						]
+					},
+					{
+						"question":"What are the criteria we will use to measure successful acheivement of goals and objectives?"
+					},
+					{
+						"question":"What framework(s) will be used in the planning process?"
+					},
+					{
+						"question":"Which critical stakeholder groups need to be represented in different stages of the planning effort?"
+					},
+					{
+						"question":"How can we use previous/current programs/initiatives to inform our planning?",
+						"subquestions":[
+							"Does this initiative align/connect with any current programs/initiatives?",
+							"What are key takeaways from previous initiatives that will inform the planning process?"
+						]
+					},
+					{
+						"question":"What relevant research and evidence will inform initiative planning and decision-making (e.g., research to guide data review, case studies, district evidence)?",
+						"subquestions":[
+							"What evidence and/or research do we still need to inform planning? How will we gather this data?"
+						]
+					},
+					{
+						"question":"What is our capacity to undertake this initiative? Will we need to shift priorities/resources to make time to plan and implement this initiative?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"The mission of this initiative have been defined and communicated.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We have co-created and communicated the goals and objectives of this initiative.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"An action plan for implementation including milestones and deliverables has been developed.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We have defined how we will measure success.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We have determined the critical stakeholder groups who will be involved in the implementation plan.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We have shifted priorities and resources to ensure we have the capacity to implement this initiative.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[
+					{
+						"title":"A Guide for Starting and Growing a Digital Learning Program (Digital Learning Collaborative)",
+						"url":"https://static1.squarespace.com/static/5a98496696d4556b01f86662/t/5c99401e7c8ddc0001bfb94b/1553547300537/DLC-KP_PlanningforQuality_1.0.pdf",
+						"type":"website",
+						"description":"When planning and launching a blended, online, or digital learning program, this roadmap serves as a guide for implementation.",
+						"completion-time-min":10
+					},
+					{
+						"title":"The Annual Report of the Digital Learning Collaborative: Snapshot 2020 - A review of K-12 online, blended, and digital learning",
+						"url":"",
+						"type":"article",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"CO: 2020-2021 Instructional Guidance for Diverse Learning Settings",
+						"url":"https://www.cde.state.co.us/standardsandinstruction/hii_all-content-areas",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Instructional Design Principles for Remote Teaching and Learning",
+						"url":"https://www.fi.ncsu.edu/resources/instructional-design-principles-for-remote-teaching-and-learning/",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Establishing or Reviewing a Decision-Making Process",
+						"url":"https://www.buildinitiative.org/Portals/0/Uploads/Documents/resource-center/community-systems-development/1B%203%20Establishing%20or%20Reviewing%20a%20Decision%20Making%20Process.pdf",
+						"type":"article",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Tool for Performing a SWOT Analysis",
+						"url":"https://www.buildinitiative.org/Portals/0/Uploads/Documents/resource-center/community-systems-development/2C%205%20Perfoming%20a%20SWOT%20Analysis.pdf",
+						"type":"article",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Collaborating with Stakeholders",
+						"url":"https://www.onlineprogramhowto.org/decisions/stakeholders/",
+						"type":"website",
+						"description":"Guiding questions for identifying key stakeholders",
+						"completion-time-min":10
+					},
+					{
+						"title":"Crowdsourced Data Supporting Student-Centered Learning",
+						"url":"https://studentsatthecenterhub.org/compelling-data/",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					}
+				]
+			}
+		]
+	},
+	{
+		"title":"Logistics & Alignment",
+		"description":"Ensuring the logistics align with the vision and purpose will support the success of the initiative.",
+		"icon":"call_merge",
+		"dell-icon": "arrange",
+		"background-color":"dell accent-5",
+		"text-color": "white-text",
+		"sections":[
+			{
+				"title":"Budget",
+				"responses":[
+					{
+						"question":"What priorities will guide our budgeting decisions?"
+					},
+					{
+						"question":"How will specific budget needs be identified?"
+					},
+					{
+						"question":"What outside funding, if any, will be necessary?"
+					}
+					
+				],
+				"assessment":[
+					{
+						"question":"We have defined our budget priorities and determined funding sources for implementation.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[]
+			},
+			{
+				"title":"Students",
+				"responses":[
+					{
+						"question":"How will enrollment and scheduling be managed in the SIS?"
+					},
+					{
+						"question":"How will student readiness be assessed and what supports will be in place for identified challenges?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"We have defined how enrollment and scheduling will be managed in the SIS.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We have determined strategies to assess student readiness and supports that will be in place as needed.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[]
+			},
+			{
+				"title":"Teaching and Learning",
+				"responses":[
+					{
+						"question":"What teacher selection process/indicators will be used?"
+					},
+					{
+						"question":"What supports are needed for teachers in the first year?"
+					},
+					{
+						"question":"What coaching and instructional support structures will be provided to encourage and empower teachers to leverage their strengths and grow professionally?",
+						"subquestions":[
+							"What tool/rubric will be used for teachers and administrators to identify \"look-fors\" during learning walks?",
+							"What feedback protocol will be use to support growth?",
+							"What opportunities will be provided for peer observations?"
+						]
+					}
+				],
+				"assessment":[
+					{
+						"question":"The teacher selection process is clearly defined.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Supports needed for teachers in their first year have been articulated and clearly communicated.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Coaching and instructional support structures will be provided to encourage and empower teachers to leverage their strengths and grow professionally.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[]
+			},
+			{
+				"title":"Professional Learning",
+				"responses":[
+					{
+						"question":"What professional learning is needed for school and district leaders?"
+					},
+					{
+						"question":"What professional learning will take place for teachers who are new to personalized, competency-based and/or blended learning environments? For more experienced teachers?"
+					},
+					{
+						"question":"Who is developing and facilitating professional learning?"
+					},
+					{
+						"question":"How can teachers self-assess readiness for teaching in a competency-based, personalized, blended learning environment?  How can this information be used to inform professional learning needs?"
+					},
+					{
+						"question":"What training and support will be provided to parents/guardians, counselors, and others to best support learners?"
+					},
+					{
+						"question":"What professional learning is needed to develop knowledge and understanding of related standards?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"A professional learning plan for school and district leaders as well as support staff is in place.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"A flexible and individualized professional learning plan in in place for teachers.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Teachers are able to self-assess their readiness for teaching in a competency-based, personalized, blended learning environment.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[]
+			},
+			{
+				"title":"Content, Tools, and Resources",
+				"responses":[
+					{
+						"question":"How will instructional content/resources, including digital teaching and learning tools and resources be selected?"
+					},
+					{
+						"question":"What instructional content/resources are currently available that would be beneficial to this learning environment?"
+					},
+					{
+						"question":"Do we plan to develop content within our district? If so, what content, when, and who will be responsible?"
+					},
+					{
+						"question":"How will we ensure educational materials are accessible to all learners?"
+					},
+					{
+						"question":"How will open education resources (OER) utilized?"
+					},
+					{
+						"question":"How can we leverage external partnerships and collaboration with other districts to aquire instructional content and resources?"
+					},
+					{
+						"question":"What is the course adoption timeline and process?"
+					},
+					{
+						"question":"What learning management system will be used?"
+					},
+					{
+						"question":"When synchronous instruction takes place, what video conferencing tool will be used?"
+					},
+					{
+						"question":"What training and resources will be provided for teachers and parents to ensure student safety and security?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"A process is in place for selecting instructional content/resources, including digital teaching and learning tools.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"A learning management system or other content management and delivery tool will be used.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"A video conferencing tool is in place for synchronous learning experiences.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Training and resources are in place to ensure student safety and security online.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[]
+			},
+			{
+				"title":"Logistics: Technology Support",
+				"responses":[
+					{
+						"question":"How is technology support provided for families?"
+					},
+					{
+						"question":"How is technology support provided for students?"
+					},
+					{
+						"question":"How is technology support provided for teachers?"
+					},
+					{
+						"question":"How do we ensure the environment and instructional materials are accessible to all students?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"Technology support is in place for students, teachers, and families.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Environmental and instructional materials are accessible to all students.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[]
+			},
+			{
+				"title":"Communication and Engagement",
+				"responses":[
+					{
+						"question":"Who are the stakeholders, and how will they be empowered contributors to the learning community?"
+					},
+					{
+						"question":"What key messages need to be communicated and when?"
+					},
+					{
+						"question":"What branding will the intiative have?"
+					},
+					{
+						"question":"What orientation opportunities will be provided for students and families?"
+					},
+					{
+						"question":"How is failure celebrated as an interative process of learning? How is reflective practice supported and encouraged?"
+					},
+					{
+						"question":"How will communication strategies be leveraged to build partnerships?"
+					},
+					{
+						"question":"What are the expectations for teacher communication with students and families (i.e. frequency, content)?"
+					},
+					{
+						"question":"What communication methods and channels will be utilized?"
+					},
+					{
+						"question":"What strategies will be used for marketing?"
+					},
+					{
+						"question":"How will information FAQs, tutorials, and documents be organized for stakeholders to find and access easily (internally and externally)?"
+					},
+					{
+						"question":"How do we seek and ensure that we collect feedback from all stakeholders?"
+					},
+					{
+						"question":"What is the process for communicating data and survey results with stakeholders?"
+					},
+					{
+						"question":"What processes will be established for high impact family and community engagement?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"Orientation opportunities are in place for students and families.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Failure is celebrated as an interative process of learning with reflective practice supported and encouraged.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Communication strategies are leveraged to build partnerships.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Communication methods and channels have been determined.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"FAQs, tutorials, and documents are organized for stakeholders to find and access easily (internally and externally).",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Processes are established for high impact family and community engagement.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[
+					{
+						"title":"Multiple Access Points for Tech Support",
+						"url":"https://practices.learningaccelerator.org/strategies/multiple-access-points-for-tech-support",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Developing a Communications Plan",
+						"url":"https://www.buildinitiative.org/Portals/0/Uploads/Documents/resource-center/community-systems-development/3A%201%20Developing%20a%20Communication%20Plan.pdf",
+						"type":"article",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Communications and Engagement Workbook",
+						"url":"https://www.buildinitiative.org/Portals/0/Uploads/Documents/resource-center/community-systems-development/3A%201%20Developing%20a%20Communication%20Plan.pdf",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Sustaining Family Engagement in the Formative Assessment Process: Assessment of Teachers’ Professional Learning Needs",
+						"url":"https://www.buildinitiative.org/Portals/0/Uploads/Documents/Resources/FamilyEngagement/Sustainability%20-%20Teacher%20Assess%20-%20Principals-Final.pdf",
+						"type":"article",
+						"description":"",
+						"completion-time-min":10
+					}
+				]
+			},
+			{
+				"title":"Policies",
+				"responses":[
+					{
+						"question":"What district and/or state policies impact this initiative?"
+					},
+					{
+						"question":"What district and state policies provide flexibility for innovative practices?"
+					},
+					{
+						"question":"What district policies need revision or need to be developed? (e.g. acceptable use, academic integrity, attendance/seat time, grading, copyright/intellectual property)"
+					},
+					{
+						"question":"What common knowledge and understanding will be critical to inform policy decisions?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"The district and/or state policies that impact this initiative are aligned with the work or are in the revision process.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[
+					{
+						"title":"Determining Attendance and Alternatives to Seat-Time",
+						"url":"https://aurora-institute.org/wp-content/uploads/determining-attendance-and-alternatives-to-seat-time.pdf",
+						"type":"article",
+						"description":"",
+						"completion-time-min":10
+					}
+				]
+			}
+		]
+	},
+	{
+		"title":"Learning Model Redesign",
+		"description":"Personalized, competency-based learning in a blended learning environment",
+		"icon":"cached",
+		"dell-icon": "clipboard-check",
+		"background-color":"dell accent-5",
+		"text-color": "white-text",
+		"sections":[
+			{
+				"title":"Design Considerations",
+				"responses":[
+					{
+						"question":"What is the structure of the learning environment (time and place; remote/hybrid/blended)?"
+					},
+					{
+						"question":"What grade level(s) will be served?"
+					},
+					{
+						"question":"Who is the project manager for this intiative? (if applicable)"
+					},
+					{
+						"question":"What courses will be offered and how is that determination made?"
+					},
+					{
+						"question":"What is the initial scope of the initiative (i.e. pilot or district wide)?"
+					},
+					{
+						"question":"How will this learning model impact teacher and student roles? Considerations may include course pace, schedule for students and/or teachers, standards-based grading, etc."
+					}
+					
+				],
+				"assessment":[
+					{
+						"question":"The structure of the learning environment has been defined.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"The grade levels that will be served have been determined.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"The project manager for this initiative has been defined.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"The range of courses that will be included have been determined.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We have defined the initial scope of the initiative (i.e. pilot or district wide).",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"The structural and learning model implications including areas such as course pace, schedule for students and/or teachers, standards-based grading, student and teacher roles, etc. have been determined.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"A clear definition of success has been communicated to all stakeholders.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[
+					{
+						"title":"Instructional Strategies for Virtual Learning: A Companion Tool to the NIET Teaching Standards Rubric (National Institute for Excellence in Teaching)",
+						"url":"https://www.niet.org/assets/Resources/niet-rubric-companion-for-virtual-instruction.pdf",
+						"type":"article",
+						"description":"Indicators for planning and delivering virtual learning in asynchronous and synchronous learning environments.",
+						"completion-time-min":10
+					},
+					{
+						"title":"A Guide for Starting and Growing a Digital Learning Program (Digital Learning Collaborative)",
+						"url":"https://static1.squarespace.com/static/5a98496696d4556b01f86662/t/5c99401e7c8ddc0001bfb94b/1553547300537/DLC-KP_PlanningforQuality_1.0.pdf",
+						"type":"article",
+						"description":"When planning and launching a blended, online, or digital learning program, this roadmap serves as a guide for implementation.",
+						"completion-time-min":10
+					},
+					{
+						"title":"The Annual Report of the Digital Learning Collaborative: Snapshot 2020 - A review of K-12 online, blended, and digital learning",
+						"url":"https://static1.squarespace.com/static/5b2a5d54e74940efa50bef9f/t/5e6669dabc0a8b4eab4db9cb/1583770127936/DLC-KP-Snapshot2020_3.9.20.pdf",
+						"type":"article",
+						"description":"Digital Learning Collaborative report; Includes visual for the spectrum of defining dimensions of an online program- p.4 (e.g. comprehensiveness, reach, type, delivery); Includes sections for various structures of online/blended learning environments; Each section includes related info; Definition, level of engagement, time and space, student demographics, and case studies",
+						"completion-time-min":10
+					}
+				]
+			},
+			{
+				"title":"Students",
+				"responses":[
+					{
+						"question":"How will student support services be provided?"
+					},
+					{
+						"question":"How will social and emotional learning be addressed?"
+					},
+					{
+						"question":"How will special populations be served?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"We have determined how enrollment and scheduling will be managed within our Student Information System (SIS).",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"An implementation plan to ensure student support services will be provided is in place.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"An implementation plan for supporting social and emotional learning is in place.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Structures and supports are in place to ensure that the needs of individual students are met.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[
+					{
+						"title":"Student Support Strategies",
+						"url":"",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"MENTOR FUNDAMENTALS A GUIDE TO MENTORING ONLINE LEARNERS",
+						"url":"",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Relationship Mapping Strategy",
+						"url":"https://mcc.gse.harvard.edu/resources-for-educators/relationship-mapping-strategy",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Educating All Learners: Resource Library",
+						"url":"https://educatingalllearners.org/resource-library/",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					}
+				]
+			},
+			{
+				"title":"Teaching and Learning",
+				"responses":[
+					{
+						"question":"What knowledge, skills, and dispositions will support post-secondary success for all learners?"
+					},
+					{
+						"question":"Will instructional delivery be synchronous, asynchronous, or a combination?"
+					},
+					{
+						"question":"What instructional strategies will be implementated to meet the needs of diverse learners?"
+					},
+					{
+						"question":"How will we define and measure student engagement? Self-direction?"
+					},
+					{
+						"question":"How will teachers personalize learning in virtual instruction?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"We have defined the knowledge, skills, and dispositions that will support post-secondary success for all learners.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"The balance and structure for synchronous and asynchronous instruction has been determined.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We have determined how we will define and measure student engagement.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We have defined strategies for teachers to personalize learning in virtual instruction.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[
+					{
+						"title":"Teacher Guide to Online Learning",
+						"url":"",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Staff: Ensure staff have a clear understanding of expectations and feel supported by leadership",
+						"url":"",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Instructional Strategies for Virtual Learning: A Companion Tool to the NIET Teaching Standards Rubric What effective teaching looks and sounds like in a virtual setting",
+						"url":"",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Instructional Guidance for Diverse Learning Settings (Colorado Department of Education)",
+						"url":"https://www.cde.state.co.us/standardsandinstruction/hii_all-content-areas",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Instructional Design Principles for Remote Teaching and Learning",
+						"url":"",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"How to Choose Words That Motivate Students During Online Learning",
+						"url":"",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Course Evaluation Checklist v2.0 - Template",
+						"url":"",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"2020-2021 Instructional Guidance for Diverse Learning Settings (Colorado Dept. of Education)",
+						"url":"",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Universal Design for Learning Guidelines",
+						"url":"",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Utah's High Quality Instructional (HQI) Cycle",
+						"url":"",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Nurturing a Classroom Community During Distance Learning",
+						"url":"",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"How Can Educators Tap Into Research to Increase Engagement During Remote Learning?",
+						"url":"",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Distance Learning MTSS Framework: Academic Engagement and Attendance",
+						"url":"",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					}
+				]
+			},
+			{
+				"title":"Logistics: Devices and Access",
+				"responses":[
+					{
+						"question":"What devices will students use and how will that determination be made? Will devices be provided by the district? Is there a sufficient budget for maintaining, repairing, refreshing, and replacing devices?"
+					},
+					{
+						"question":"How will the devices be managed? How will we ensure sufficient infrastructure and filtering for devices on and off campus? What is our policy for sending devices home with students?"
+					},
+					{
+						"question":"How will we collect information about student home connectivity and access to a device?"
+					},
+					{
+						"question":"What strategies will be in place to support students who lack high-speed internet access?"
+					},
+					{
+						"question":"Do we plan to use mobile devices? How will this decision impact tools and resources selected?"
+					},
+					{
+						"question":"What assistive technology devices, software, and tools are needed and how will they be procured?"
+					},
+					{
+						"question":"How will the Technology team be involved in planning and implementation?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"We have determined the devices will students use and have ensured there a sufficient budget for maintaining, repairing, refreshing, and replacing devices.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We have the infrastructure in place to manage devices on and off campus.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We are able to ensure that every student has broadband internet access at school as well as at home.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Assistive technology devices, software, and tools will they be procured to support the needs of individual students.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"There are structures in place for departments to collaborate on device and access needs.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[
+					
+				]
+			},
+			{
+				"title":"Logistics: Digital Tools and Resources",
+				"responses":[
+					{
+						"question":"What policies, processes, and requirements impact hardware and software purchasing decisions and procurement?"
+					},
+					{
+						"question":"What quality indicators inform the selection of effective tools and resources?"
+					},
+					{
+						"question":"What digital tools and resources are currently available to teachers? Students?"
+					},
+					{
+						"question":"How do we determine needs for digital tools and resources?"
+					},
+					{
+						"question":"What considerations have been made for AI and keeping unintentional bias in check (equity)?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"The policies, processes, and requirements that impact hardware and software purchasing decisions, including procurement, are clear.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"There are quality indicators in place to inform the selection of effective tools and resources.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"The digital tools and resources currently available to teachers and students support personalized learning.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"A strategy for determining needs for digital tools and resources is in place.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"A plan is in place for understanding AI and keeping unintentional bias in check.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Our learning management system (LMS) is in place.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Training and resources are provided for students, teachers, and families to ensure student safety and security.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[
+					
+				]
+			},
+			{
+				"title":"PL, CBE, and BL",
+				"responses":[
+					{
+						"question":"How are students empowered daily to make important decisions about their learning experiences, how they will create and apply knowledge, and how they will demonstrate their learning? (student voice and choice)"
+					},
+					{
+						"question":"In what ways will meaningful and timely feedback be incorporated into learning experiences?"
+					},
+					{
+						"question":"How is assessment a meaningful, positive, and empowering learning experience for students that yields timely, relevant, and actionable evidence?",
+						"subquestions":[
+							"What methods are used to regularly monitor student progress toward mastery, through multiple means and tools, to inform instructional planning?",
+							"How is feedback for students prioritized as a key piece in empowering learning?"
+						]
+					},
+					{
+						"question":"How do students receive timely, differentiated support based on their individual learning needs?",
+						"subquestions":[
+							"What online and offline systems are being leveraged for tracking, planning, and delivering student supports that address gaps and needs?"
+						]
+					},
+					{
+						"question":"How do students progress based on evidence of mastery, not seat time?"
+					},
+					{
+						"question":"How do students learn actively using different pathways and varied pacing?"
+					},
+					{
+						"question":"What strategies ensure equity for all students? How are they embedded in the culture, structure, and pedagogy of school and education systems?"
+					},
+					{
+						"question":"How are rigorous, common expectations for learning (knowledge, skills, and dispositions) explicit, transparent, measurable, and transferable?"
+					},
+					{
+						"question":"How do you create and disseminate clear expectations for effective remote planning and instruction that integrates research-informed practice?"
+					},
+					{
+						"question":"How do instructional strategies integrate routines that maximize connection and personalization and support a variety of learning needs (e.g., supports for students who are emerging multilinguals, receiving special education services, advanced learners, etc.) and actively engage students in rigorous learning?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"Students are empowered daily to make important decisions about their learning experiences, how they will create and apply knowledge, and how they will demonstrate their learning, emphasizing student voice and choice.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Meaningful and timely feedback is incorporated into learning experiences.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Assessment is meaningful, positive, and empowering learning experience for students that yields timely, relevant, and actionable evidence.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Feedback for students is prioritized as a key piece of empowering learning.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Students receive timely, differentiated support based on their individual learning needs.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Various systems are being leveraged for tracking, planning, and delivering student supports that address gaps and needs.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Student progress is based on evidence of mastery, not seat time.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Students learn actively using different pathways and varied pacing.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Strategies for ensuring equity for all students are embedded in the culture, structure, and pedagogy of school and district systems.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Rigorous, common expectations for learning (knowledge, skills, and dispositions) are explicit, transparent, measurable, and transferable.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Clear expectations have been created and disseminated for effective remote planning and instruction that integrates research-informed practice.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Instructional strategies integrate routines that maximize connection and personalization and support a variety of learning needs (e.g., supports for students who are emerging multilinguals, receiving special education services, advanced learners, etc.) and actively engage students in rigorous learning.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[
+					
+				]
+			}
+		]
+	},
+	{
+		"title":"Sustainability",
+		"description":"In order to ensure competency-based, personalized learning not only continues, but continues to improve, teams will need to focus on program reviews aligned with a continuous improvement cycle.",
+		"icon":"filter_drama",
+		"dell-icon": "cloud",
+		"background-color":"dell accent-5",
+		"text-color": "white-text",
+		"sections":[
+			{
+				"title":"Continuous Improvement",
+				"responses":[
+					{
+						"question":"What framework(s) will we use for reflection and evaluation? How will we measure, analyze, review, and improve implementation?"
+					},
+					{
+						"question":"What stakeholders will be involved in the evaluation process and how will they be involved?"
+					},
+					{
+						"question":"How often will we reflect and evaluate aspects of this initiative?"
+					},
+					{
+						"question":"How will we ensure the quality and availability of needed data for staff, students, and the community?"
+					},
+					{
+						"question":"What student learning data is available to determine the level of impact of implementation?"
+					},
+					{
+						"question":"How will we measure and align efforts to ensure equity?"
+					},
+					{
+						"question":"What surveys are available to measure student and teacher levels of engagement as new instructional models are implemented?"
+					},
+					{
+						"question":"What will inform your professional learning offerings?"
+					},
+					{
+						"question":"How are we measuring the impact of professional learning on classroom practices?"
+					},
+					{
+						"question":"In what ways will you engage with thought partners and organizations to continue learning and growing?"
+					},
+					{
+						"question":"What process is in place to act on what we learn as part of our reflection and evaluation process?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"We have framework(s) in place for reflection and evaluation including how strategies for measuring, analyzing, reviewing, and improving implementation.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We know which stakeholders will be involved in the evaluation process and how will they be involved.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We have access to the data needed for staff, students, and the community.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Student learning data is available to determine the level of impact of implementation.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We are measuring, aligning, and strategically considering efforts and resource needs to ensure equity.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"Surveys are available to measure student and teacher levels of engagement as new instructional models are implemented.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We have a professional development plan in place.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We measure the impact of professional learning on classroom practices.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"We engage with thought partners and organizations to continue learning and growing.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[]
+			},
+			{
+				"title":"Operational Considerations",
+				"responses":[
+					{
+						"question":"What will be the initiative budget and related expenditures (e.g. funding for infrastructure, devices, content, professional development, human resources)?"
+					},
+					{
+						"question":"What district policies need to be revised or need to be developed? (e.g. attendance/seat time, grading, etc.)"
+					},
+					{
+						"question":"What common knowledge and understanding will be critical to inform policy decisions?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"The initiative budget and related expenditures (e.g. funding for infrastructure, devices, content, professional development, human resources) are sustainable.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					},
+					{
+						"question":"District policies that need to be revised or need to be developed (e.g. attendance/seat time, grading, etc.) have been identified.",
+						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
+					}
+				],
+				"resources":[]
+			}
+		]
+	}
+]

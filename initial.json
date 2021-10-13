@@ -1,0 +1,406 @@
+[
+	{
+		"title":"Purpose and Vision",
+		"description":"Defining your purpose and vision clarifies the compelling reason for undertaking this initiative and provides a shared focus for the work that follows. Having a clear pupose and vision is necessary for alignment between all initiative components.",
+		"icon":"filter_center_focus",
+		"background-color":"dell accent-1",
+		"text-color": "white-text",
+		"sections":[
+			{
+				"title":"Start with Your Why",
+				"responses":[
+					{
+						"question":"What is our compelling reason to undertake this initiative?",
+						"subquestions":[
+							"What are the most significant issues to address?",
+							"Who are the students most in need?",
+							"What data, research, and evidence can we use to identify our focus?"
+						]
+					},
+					{
+						"question":"What will be the ultimate impact?"
+					},
+					{
+						"question":"Which stakeholders need to be included in defining the initiative's purpose and vision?"
+					},
+					{
+						"question":"What visioning work have we done in the past? What documents do we already have that can be useful to this work?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"Lorem ipsum? #1",
+						"responses":["lowest", "mid-low", "mid-high","high"]
+					},
+					{
+						"question":"Lorem ipsum? #2",
+						"responses":["lowest", "mid-low", "mid-high","high"]
+					},
+					{
+						"question":"Lorem ipsum? #3",
+						"responses":["lowest", "mid-low", "mid-high","high"]
+					}
+				],
+				"resources":[
+					{
+						"title":"The Hexagon: An Exploration Tool Hexagon Discussion & Analysis Tool Instructions",
+						"url":"https://nirn.fpg.unc.edu/sites/nirn.fpg.unc.edu/files/imce/documents/NIRN%20Hexagon%20Discussion%20Analysis%20Tool_September2020_1.pdf",
+						"type":"article",
+						"description":"Evaluate the fit and feasibility of implementing programs or practices in a given context; Most commonly used in exploration stage; Includes tool, guidance and instructions for team use, and guiding questions",
+						"completion-time-min":10
+					},
+					{
+						"title":"Management and Operations of Online Programs",
+						"url":"https://aurora-institute.org/wp-content/uploads/iNACOL_promising-practices-in-online-learning-management-and-operations.pdf",
+						"type":"article",
+						"description":"P. 24  \"Online learning: The opportunities it can provide; the problems it can solve\" provides one page list of possible drivers and rating scale for prioritization of drivers",
+						"completion-time-min":0
+					},
+					{
+						"title":"The Shifting Paradigm of Teaching: Personalized Learning According to Teachers",
+						"url":"https://knowledgeworks.org/wp-content/uploads/2018/01/teacher-conditions.pdf",
+						"type":"article",
+						"description":"P. 24  \"Online learning: The opportunities it can provide; the problems it can solve\" provides one page list of possible drivers and rating scale for prioritization of drivers",
+						"completion-time-min":0
+					},
+					{
+						"title":"Six Tips for Engaging Your Community in the Visioning Process",
+						"url":"https://knowledgeworks.org/resources/community-vision-personalized-learning/",
+						"type":"website",
+						"description":"Lorem ipsum",
+						"completion-time-min":0
+					},
+					{
+						"title":"",
+						"url":"",
+						"type":"",
+						"description":"",
+						"completion-time-min":0
+					}
+				]
+			},
+			{
+				"title":"Making the Case for Change",
+				"responses":[
+					{
+						"question":"Drivers:",
+						"subquestions":[
+							"What critical conversations and data can help identify initiative drivers?",
+							"What current issues need to be solved?",
+							"How did we get here?",
+							"What is the level of priority for each driver we've identified?"
+						]
+					},
+					{
+						"question":"Goals:",
+						"subquestions":[
+							"What do we plan to achieve?",
+							"What will be the guiding principles for the initiative?"
+						]
+					},
+					{
+						"question":"Benefits of taking action:",
+						"subquestions":[
+							"How will this improve our district?",
+							"What other benefits will result from this initiative?"
+						]
+					},
+					{
+						"question":"Risks of not taking action:",
+						"subquestions":[
+							"What if no action is taken?",
+							"What opportunities might be missed without this initiative?"
+						]
+					},
+					{
+						"question":"Impacts:",
+						"subquestions":[
+							"Who will be impacted, and how?",
+							"What is the impact for the district?"
+						]
+					},
+					{
+						"question":"Capacity:",
+						"subquestions":[
+							"Will we need to shift priorities/resources to make time to plan and implement this initiative?"
+						]
+					}
+				],
+				"assessment":[
+					{
+						"question":"Lorem ipsum? #1",
+						"responses":["lowest", "mid-low", "mid-high","high"]
+					},
+					{
+						"question":"Lorem ipsum? #2",
+						"responses":["lowest", "mid-low", "mid-high","high"]
+					},
+					{
+						"question":"Lorem ipsum? #3",
+						"responses":["lowest", "mid-low", "mid-high","high"]
+					}
+				],
+				"resources":[
+					{
+						"title":"Levers and Logic Models: A Framework to Guide Research and Design of High-Quality Competency-Based Education Systems",
+						"url":"http://www.aurora-institute.org/wp-content/uploads/CompetencyWorks-Levers-and-Logic-Models.pdf",
+						"type":"article",
+						"description":"Lorem ipsum",
+						"completion-time-min":10
+					}
+				]
+			}
+		]
+	},
+	{
+		"title":"Logistics & Alignment",
+		"description":"Ensuring the logistics align with the vision and purpose will support the success of the initiative.",
+		"icon":"call_merge",
+		"background-color":"dell accent-2",
+		"text-color": "white-text",
+		"sections":[
+			{
+				"title":"Budget and Timelines",
+				"responses":[
+					{
+						"question":"How will specific budget needs be identified?"
+					},
+					{
+						"question":"What outside funding will be necessary?"
+					},
+					{
+						"question":"What priorities will guide our budgeting decisions?"
+					},
+					{
+						"question":"What human resources funding will be included in the budget?"
+					},
+					{
+						"question":"What is the timeline for planning, developing, and implementing the initiative?"
+					},
+					{
+						"question":"What milestones and deliverables are included in the initiative timeline?"
+					}
+					
+				],
+				"assessment":[
+					{
+						"question":"Lorem ipsum?",
+						"responses":["lowest", "mid-low", "mid-high","high"]
+					}
+				],
+				"resources":[]
+			},
+			{
+				"title":"Students",
+				"responses":[
+					{
+						"question":"What is the process for recruiting students?"
+					},
+					{
+						"question":"Is there a student population focus (e.g. credit recovery, honors, open enrollment)?"
+					},
+					{
+						"question":"How will enrollment and scheduling be managed in the SIS?"
+					},
+					{
+						"question":"How will student readiness be assessed and what supports will be in place for identified challenges?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"Lorem ipsum?",
+						"responses":["lowest", "mid-low", "mid-high","high"]
+					}
+				],
+				"resources":[]
+			}
+		]
+	},
+	{
+		"title":"Learning Model Redesign",
+		"description":"Personalized, competency-based learning in a blended learning environment",
+		"icon":"cached",
+		"background-color":"green",
+		"text-color": "white-text",
+		"sections":[
+			{
+				"title":"Design Considerations",
+				"responses":[
+					{
+						"question":"What is the structure of the learning environment? (Time and place; remote/hybrid/blended)"
+					},
+					{
+						"question":"What grade level(s) will be served?"
+					},
+					{
+						"question":"Who is the project manager for this intiative? (if applicable)"
+					},
+					{
+						"question":"What courses will be offered and how is that determination made?"
+					},
+					{
+						"question":"What is the initial scope of initiative (i.e. pilot or district wide)?"
+					},
+					{
+						"question":"How will this learning model impact teacher and student roles? Considerations may include course pace, schedule for students and/or teachers, standards-based grading, etc."
+					}
+					
+				],
+				"assessment":[
+					{
+						"question":"Lorem ipsum?",
+						"responses":["lowest", "mid-low", "mid-high","high"]
+					}
+				],
+				"resources":[
+					{
+						"title":"PLANNING FOR QUALITY: A Guide for Starting and Growing a Digital Learning Program",
+						"url":"https://static1.squarespace.com/static/5a98496696d4556b01f86662/t/5c99401e7c8ddc0001bfb94b/1553547300537/DLC-KP_PlanningforQuality_1.0.pdf",
+						"type":"article",
+						"description":"Digital Learning Collaborative resource; Planning guide addressing: goals, planning and implmentation to meet those goals, and fostering culture change; Includes graphic organizer to support strategic planning efforts. Questions to ask and decisions to make related to four focus areas: content, teaching, technology, and operations",
+						"completion-time-min":10
+					},
+					{
+						"title":"The Annual Report of the Digital Learning Collaborative: Snapshot 2020 - A review of K-12 online, blended, and digital learning",
+						"url":"https://static1.squarespace.com/static/5b2a5d54e74940efa50bef9f/t/5e6669dabc0a8b4eab4db9cb/1583770127936/DLC-KP-Snapshot2020_3.9.20.pdf",
+						"type":"article",
+						"description":"Digital Learning Collaborative report; Includes visual for the spectrum of defining dimensions of an online program- p.4 (e.g. comprehensiveness, reach, type, delivery); Includes sections for various structures of online/blended learning environments; Each section includes related info; Definition, level of engagement, time and space, student demographics, and case studies",
+						"completion-time-min":10
+					}
+				]
+			},
+			{
+				"title":"Students",
+				"responses":[
+					{
+						"question":"How will student support services be provided?"
+					},
+					{
+						"question":"How will social and emotional learning be addressed?"
+					},
+					{
+						"question":"How will special populations be served (e.g. AIG, EC, EL)?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"Lorem ipsum?",
+						"responses":["lowest", "mid-low", "mid-high","high"]
+					}
+				],
+				"resources":[
+					{
+						"title":"Student Support Strategies",
+						"url":"",
+						"type":"",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"MENTOR FUNDAMENTALS A GUIDE TO MENTORING ONLINE LEARNERS",
+						"url":"",
+						"type":"",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Relationship Mapping Strategy",
+						"url":"https://mcc.gse.harvard.edu/resources-for-educators/relationship-mapping-strategy",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Educating All Learners: Resource Library",
+						"url":"https://educatingalllearners.org/resource-library/",
+						"type":"website",
+						"description":"",
+						"completion-time-min":10
+					},
+					{
+						"title":"Teacher Guide to Online Learning",
+						"url":"",
+						"type":"",
+						"description":"",
+						"completion-time-min":10
+					}
+				]
+			}
+		]
+	},
+	{
+		"title":"Sustainability",
+		"description":"In order to ensure competency-based, personalized learning not only continues, but continues to improve, teams will need to focus on program reviews aligned with a continuous improvement cycle.",
+		"icon":"filter_drama",
+		"background-color":"light-blue",
+		"text-color": "white-text",
+		"sections":[
+			{
+				"title":"Continuous Improvement",
+				"responses":[
+					{
+						"question":"What framework(s) will we use for reflection and evaluation?  How will we measure, analyze, review, and improve implementation?"
+					},
+					{
+						"question":"What stakeholders will be involved in the evaluation process and how will they be involved?"
+					},
+					{
+						"question":"How often will we reflect and evaluate aspects of this initiative?"
+					},
+					{
+						"question":"How will we ensure the quality and availability of needed data for staff, students, and the community?"
+					},
+					{
+						"question":"What student learning data is available to determine the level of impact of implementation?"
+					},
+					{
+						"question":"How will we measure and align efforts to ensure equity?"
+					},
+					{
+						"question":"What surveys are available to measure student and teacher levels of engagement as new instructional models are implemented?"
+					},
+					{
+						"question":"What will inform your professional learning offerings?"
+					},
+					{
+						"question":"How are we measuring the impact of professional learning on classroom practices?"
+					},
+					{
+						"question":"In what ways will you engage with thought partners and organizations to continue learning and growing?"
+					},
+					{
+						"question":"What process is in place to act on what we learn as part of our reflection and evaluation process?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"Lorem ipsum?",
+						"responses":["lowest", "mid-low", "mid-high","high"]
+					}
+				],
+				"resources":[]
+			},
+			{
+				"title":"Operational Considerations",
+				"responses":[
+					{
+						"question":"What will be the initiative budget and related expenditures (e.g. funding for infrastructure, devices, content, professional development, human resources)?"
+					},
+					{
+						"question":"What district policies need to be revised or need to be developed? (e.g. attendance/seat time, grading, etc.)"
+					},
+					{
+						"question":"What common knowledge and understanding will be critical to inform policy decisions?"
+					}
+				],
+				"assessment":[
+					{
+						"question":"Lorem ipsum?",
+						"responses":["lowest", "mid-low", "mid-high","high"]
+					}
+				],
+				"resources":[]
+			}
+		]
+	}
+]
