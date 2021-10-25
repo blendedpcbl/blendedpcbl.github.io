@@ -201,6 +201,10 @@
   <script src="js/script.js"></script>
   <script>
     $("input[type='checkbox'], input[name='email'], input[name='tel']").on('keyup change', function(){
+      // reset the button and text
+      $(".message-text").html("");
+      $("button").addClass("disabled");
+
       // check the email contact pair
       if($("input[name='email-contact']").prop("checked") && $("input[name='email']").val() !== ""){
         $(".message-text").html("");
