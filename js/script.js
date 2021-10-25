@@ -550,7 +550,9 @@ $("form").submit(function(e) {
         	'tel': $('input[name="tel"]').val(),
         	'state': $('select[name="state"]').val(),
         	'role': $('select[name="role"]').val(),
-        	'message': $('textarea[name="message"]').val()
+        	'message': $('textarea[name="message"]').val(),
+        	'email-contact': $('input[name="email-contact"]').val(),
+        	'phone-contact': $('input[name="phone-contact"]').val()
         },
         success: function(){
         	console.log("success");
