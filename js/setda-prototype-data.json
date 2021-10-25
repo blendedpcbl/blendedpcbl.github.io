@@ -42,10 +42,6 @@
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					},
 					{
-						"question":"We understand and have communicated the drivers for this initative.",
-						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
-					},
-					{
 						"question":"The relationships between personalized, competency-based learning and blended learning have been defined.",
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					},
@@ -232,12 +228,6 @@
 						"question":"What are the criteria we will use to measure successful acheivement of goals and objectives?"
 					},
 					{
-						"question":"What framework(s) will be used in the planning process?"
-					},
-					{
-						"question":"Which critical stakeholder groups need to be represented in different stages of the planning effort?"
-					},
-					{
 						"question":"How can we use previous/current programs/initiatives to inform our planning?",
 						"subquestions":[
 							"Does this initiative align/connect with any current programs/initiatives?",
@@ -249,9 +239,6 @@
 						"subquestions":[
 							"What evidence and/or research do we still need to inform planning? How will we gather this data?"
 						]
-					},
-					{
-						"question":"What is our capacity to undertake this initiative? Will we need to shift priorities/resources to make time to plan and implement this initiative?"
 					}
 				],
 				"assessment":[
@@ -269,10 +256,6 @@
 					},
 					{
 						"question":"We have defined how we will measure success.",
-						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
-					},
-					{
-						"question":"We have determined the critical stakeholder groups who will be involved in the implementation plan.",
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					},
 					{
@@ -444,9 +427,6 @@
 					},
 					{
 						"question":"What training and support will be provided to parents/guardians, counselors, and others to best support learners?"
-					},
-					{
-						"question":"What professional learning is needed to develop knowledge and understanding of related standards?"
 					}
 				],
 				"assessment":[
@@ -482,12 +462,6 @@
 					},
 					{
 						"question":"How will open education resources (OER) utilized?"
-					},
-					{
-						"question":"How can we leverage external partnerships and collaboration with other districts to aquire instructional content and resources?"
-					},
-					{
-						"question":"What is the course adoption timeline and process?"
 					},
 					{
 						"question":"What learning management system will be used?"
@@ -551,9 +525,6 @@
 				"title":"Communication and Engagement",
 				"responses":[
 					{
-						"question":"Who are the stakeholders, and how will they be empowered contributors to the learning community?"
-					},
-					{
 						"question":"What key messages need to be communicated and when?"
 					},
 					{
@@ -585,9 +556,6 @@
 					},
 					{
 						"question":"What is the process for communicating data and survey results with stakeholders?"
-					},
-					{
-						"question":"What processes will be established for high impact family and community engagement?"
 					}
 				],
 				"assessment":[
@@ -600,19 +568,11 @@
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					},
 					{
-						"question":"Communication strategies are leveraged to build partnerships.",
-						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
-					},
-					{
 						"question":"Communication methods and channels have been determined.",
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					},
 					{
 						"question":"FAQs, tutorials, and documents are organized for stakeholders to find and access easily (internally and externally).",
-						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
-					},
-					{
-						"question":"Processes are established for high impact family and community engagement.",
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					}
 				],
@@ -683,7 +643,7 @@
 	},
 	{
 		"title":"Learning Model Redesign",
-		"description":"Personalized, competency-based learning in a blended learning environment",
+		"description":"Implementing personalized, competency-based learning in a blended environment gives students voice and choice in their education journey, while aligning to their individual needs.",
 		"icon":"cached",
 		"dell-icon": "clipboard-check",
 		"background-color":"dell accent-5",
@@ -705,9 +665,6 @@
 						"question":"What courses will be offered and how is that determination made?"
 					},
 					{
-						"question":"What is the initial scope of the initiative (i.e. pilot or district wide)?"
-					},
-					{
 						"question":"How will this learning model impact teacher and student roles? Considerations may include course pace, schedule for students and/or teachers, standards-based grading, etc."
 					}
 					
@@ -727,10 +684,6 @@
 					},
 					{
 						"question":"The range of courses that will be included have been determined.",
-						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
-					},
-					{
-						"question":"We have defined the initial scope of the initiative (i.e. pilot or district wide).",
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					},
 					{
@@ -776,7 +729,7 @@
 						"question":"How will social and emotional learning be addressed?"
 					},
 					{
-						"question":"How will special populations be served?"
+						"question":"How will all individual student needs be met (IEP requirements, 504 accommodations, etc.)?"
 					}
 				],
 				"assessment":[
@@ -858,10 +811,6 @@
 					},
 					{
 						"question":"We have determined how we will define and measure student engagement.",
-						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
-					},
-					{
-						"question":"We have defined strategies for teachers to personalize learning in virtual instruction.",
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					}
 				],
@@ -960,7 +909,7 @@
 				]
 			},
 			{
-				"title":"Logistics: Devices and Access",
+				"title":"Devices and Access",
 				"responses":[
 					{
 						"question":"What devices will students use and how will that determination be made? Will devices be provided by the district? Is there a sufficient budget for maintaining, repairing, refreshing, and replacing devices?"
@@ -998,11 +947,7 @@
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					},
 					{
-						"question":"Assistive technology devices, software, and tools will they be procured to support the needs of individual students.",
-						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
-					},
-					{
-						"question":"There are structures in place for departments to collaborate on device and access needs.",
+						"question":"Assistive technology devices, software, and tools will be procured to support the needs of individual students.",
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					}
 				],
@@ -1011,7 +956,7 @@
 				]
 			},
 			{
-				"title":"Logistics: Digital Tools and Resources",
+				"title":"Digital Tools and Resources",
 				"responses":[
 					{
 						"question":"What policies, processes, and requirements impact hardware and software purchasing decisions and procurement?"
@@ -1051,10 +996,6 @@
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					},
 					{
-						"question":"Our learning management system (LMS) is in place.",
-						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
-					},
-					{
 						"question":"Training and resources are provided for students, teachers, and families to ensure student safety and security.",
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					}
@@ -1064,7 +1005,7 @@
 				]
 			},
 			{
-				"title":"PL, CBE, and BL",
+				"title":"Personalized, Competency-Based Learning and Blended Learning",
 				"responses":[
 					{
 						"question":"How are students empowered daily to make important decisions about their learning experiences, how they will create and apply knowledge, and how they will demonstrate their learning? (student voice and choice)"
@@ -1118,10 +1059,6 @@
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					},
 					{
-						"question":"Feedback for students is prioritized as a key piece of empowering learning.",
-						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
-					},
-					{
 						"question":"Students receive timely, differentiated support based on their individual learning needs.",
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					},
@@ -1147,10 +1084,6 @@
 					},
 					{
 						"question":"Clear expectations have been created and disseminated for effective remote planning and instruction that integrates research-informed practice.",
-						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
-					},
-					{
-						"question":"Instructional strategies integrate routines that maximize connection and personalization and support a variety of learning needs (e.g., supports for students who are emerging multilinguals, receiving special education services, advanced learners, etc.) and actively engage students in rigorous learning.",
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					}
 				],
@@ -1178,7 +1111,7 @@
 						"question":"What stakeholders will be involved in the evaluation process and how will they be involved?"
 					},
 					{
-						"question":"How often will we reflect and evaluate aspects of this initiative?"
+						"question":"How often will we reflect on and evaluate aspects of this initiative?"
 					},
 					{
 						"question":"How will we ensure the quality and availability of needed data for staff, students, and the community?"
@@ -1193,13 +1126,13 @@
 						"question":"What surveys are available to measure student and teacher levels of engagement as new instructional models are implemented?"
 					},
 					{
-						"question":"What will inform your professional learning offerings?"
+						"question":"What will inform our professional learning offerings?"
 					},
 					{
 						"question":"How are we measuring the impact of professional learning on classroom practices?"
 					},
 					{
-						"question":"In what ways will you engage with thought partners and organizations to continue learning and growing?"
+						"question":"In what ways will we engage with thought partners and organizations to continue learning and growing?"
 					},
 					{
 						"question":"What process is in place to act on what we learn as part of our reflection and evaluation process?"
@@ -1207,11 +1140,11 @@
 				],
 				"assessment":[
 					{
-						"question":"We have framework(s) in place for reflection and evaluation including how strategies for measuring, analyzing, reviewing, and improving implementation.",
+						"question":"We have framework(s) in place for reflection and evaluation including strategies for measuring, analyzing, reviewing, and improving implementation.",
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					},
 					{
-						"question":"We know which stakeholders will be involved in the evaluation process and how will they be involved.",
+						"question":"We know which stakeholders will be involved in the evaluation process and how they will be involved.",
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					},
 					{
@@ -1228,10 +1161,6 @@
 					},
 					{
 						"question":"Surveys are available to measure student and teacher levels of engagement as new instructional models are implemented.",
-						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
-					},
-					{
-						"question":"We have a professional development plan in place.",
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					},
 					{
