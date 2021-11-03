@@ -8,8 +8,9 @@ $(document).ready(function(){
 	// build the nav
 	var nav = '';
 	nav += '<div class="nav-wrapper">';
-		nav += '<a href="index.html" class="brand-logo" style="padding-left: 1em; padding-right: 1em; font-size: 1.5em; font-weight: 100;">Blended PCBL</a>';
+		// nav += '<a href="index.html" class="brand-logo" style="padding-left: 1em; padding-right: 1em; font-size: 1.5em; font-weight: 100;">Blended PCBL</a>';
 		// nav += '<a href="#" class="brand-logo"></a>';
+		nav += '<a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>';
 		nav += '<ul id="nav-mobile" class="right hide-on-med-and-down">';
 			nav += '<li><a href="index.html">Home</a></li>';
 			nav += '<li><a href="definitions.html">Definitions</a></li>';
@@ -20,6 +21,18 @@ $(document).ready(function(){
 		nav += '</ul>';
 	nav += '</div>';
 	$("nav").html(nav);
+
+	var sidenav = '';
+	sidenav += '<ul class="sidenav" id="mobile-nav">';
+	    sidenav += '<li><a href="index.html">Home</a></li>';
+		sidenav += '<li><a href="definitions.html">Definitions</a></li>';
+		sidenav += '<li><a href="reflection.html">Reflection</a></li>';
+		sidenav += '<li><a href="assessment.html">Assessment</a></li>';
+		sidenav += '<li><a href="resources.html">Resources</a></li>';
+		sidenav += '<li><a href="about.html">About</a></li>';
+	sidenav += '</ul>';
+	$("nav").after(sidenav);
+    $('.sidenav').sidenav();
 
 	// build the footer
 	var footer = '';
@@ -72,7 +85,7 @@ $(document).ready(function(){
 					assessmentHtml += `<div class="row"><div class="col s12"><h5 style="font-size: 1.35em;">${ w.question }</h5>`;
 					assessmentHtml += `<div class="row responses" style="margin-top: 2em;">`;
 					w.responses.forEach(function(x, k){
-						assessmentHtml += `<div class="col s12 m6 l3"><a class="waves-effect waves-light btn dell darken-1 response-btn btn-small" style="width: 100%; margin-bottom: 1em;" data-value=${ k+1 } data-section="${ v.title.replace(/\W+/g, '').toLowerCase() }">${ toTitleCase(x) }</a></div>`;
+						assessmentHtml += `<div class="col s12 m6 l3"><a class="waves-effect waves-light btn dell darken-1 response-btn btn-small" style="width: 100%; margin-bottom: 1em;" data-value=${ k+1 } data-section="${ val.title.replace(/\W+/g, '').toLowerCase() }">${ toTitleCase(x) }</a></div>`;
 					})
 					assessmentHtml += `</div></div></div>`;
 				})
@@ -161,77 +174,103 @@ $(document).ready(function(){
 			// console.log(val);
 			var resourcesHtml = '';
 			resourcesHtml += `<div class="row"><div class="col s12"><div class="card ${ val['background-color'] }" style="margin-top: 5em;"><div class="card-content ${ val['text-color'] }"><span class="card-title" style="font-weight: 600;"><!--<i class="material-icons">${ val.icon }</i>--><img src="./icon/${ val['dell-icon'] }_white-64px.png" class="dell-icon large">${ val.title }</span><span style="font-style: italic; font-size: 1.35em;">${ val.description }</span></div></div></div></div>`;
-			val.sections.forEach(function(v, i){
-				var sessionScore = sessionStorage.getItem(v.title.replace(/\W+/g, '').toLowerCase());
-				var storedScore = (sessionScore === null) ? 'n/a' : sessionScore;
 
-				// from: https://codepen.io/j_holtslander/pen/MzNPbP
-				/*
-					alert card blue lighten-4 blue-text text-darken-3 w/ info
-					alert card amber lighten-4 brown-text w/ report_problem
-					alert card red lighten-4 red-text text-darken-4 w/ report
-					alert card green lighten-4 green-text text-darken-4 w/ check_circle
-				*/
+			var sessionScore = sessionStorage.getItem(val.title.replace(/\W+/g, '').toLowerCase());
+			var storedScore = (sessionScore === null) ? 'n/a' : sessionScore;
 
-				var alertConfig = {};
-				if(sessionScore >= 3){
-					alertConfig = {
-						'divClass': 'alert card green lighten-4 green-text text-darken-4',
-						'textStyle': 'green-text',
-						'icon': 'check_circle',
-						'mainText': 'You\'re doing AOK on this!',
-						'subText': ''
+			resourcesHtml += `<ul class="collapsible col s12 m10 offset-m1">`;
+				// determine if the accordion should be open or closed
+				resourcesHtml += `<li class="${ (sessionScore === null || sessionScore < 3) ? 'active' : '' }">`;
+
+					// from: https://codepen.io/j_holtslander/pen/MzNPbP
+					/*
+						alert card blue lighten-4 blue-text text-darken-3 w/ info
+						alert card amber lighten-4 brown-text w/ report_problem
+						alert card red lighten-4 red-text text-darken-4 w/ report
+						alert card green lighten-4 green-text text-darken-4 w/ check_circle
+					*/
+
+					var alertConfig = {};
+					if(sessionScore >= 3){
+						alertConfig = {
+							'divClass': 'alert card green lighten-4 green-text text-darken-4',
+							'textStyle': 'green-text',
+							'icon': 'check_circle',
+							'mainText': 'You\'re doing AOK on this!',
+							'subText': ''
+						}
+					} else if(sessionScore < 3){
+						alertConfig = {
+							'divClass': 'alert card amber lighten-4 brown-text',
+							'textStyle': 'amber-text text-lighten-1',
+							'icon': 'report_problem',
+							'mainText': 'This is an area of improvement!',
+							'subText': 'Check out the resources below.'
+						}
 					}
-				} else if(sessionScore < 3){
-					alertConfig = {
-						'divClass': 'alert card amber lighten-4 brown-text',
-						'textStyle': 'amber-text text-lighten-1',
-						'icon': 'report_problem',
-						'mainText': 'This is an area of improvement!',
-						'subText': 'Check out the resources below.'
-					}
-				}
-				
-				resourcesHtml += `<ul class="collapsible col s12 m10 offset-m1">`;
-					// determine if the accordion should be open or closed
-    				resourcesHtml += `<li class="${ (sessionScore === null || sessionScore < 3) ? 'active' : '' }">`;
-    					resourcesHtml += `<div class="collapsible-header" style="margin-top: 0;"><h5 style="font-weight: 300; margin-top: 0.25em; padding-top: 0;">`;
-    						if(sessionScore === null){
 
-    						} else {
-    							resourcesHtml += `<i class="material-icons medium right ${ alertConfig.textStyle }">${ alertConfig.icon }</i>`;
-    						}
-    						resourcesHtml += `${ v.title } (${ v.resources.length })`;
-    					resourcesHtml += `</h5></div>`;
-    					resourcesHtml += `<div class="collapsible-body"><span>`;
-    						// put an alert if necessary
-    						if(sessionScore === null){
+					// count the number of resources in each section
+					var count = 0;
+					val.sections.forEach(function(v, i){
+						v.resources.forEach(function(w, j){
+							count++;
+						})
+					})
 
-							} else {
-								resourcesHtml += `<div class="row">`;
-									resourcesHtml += `<div class="${ alertConfig.divClass }" style="margin-top: -0.5em;">`;
-										resourcesHtml += `<div class="card-content">`;
-											resourcesHtml += `<!--<i class="material-icons">${ alertConfig.icon }</i>--><span style="font-weight: 700;">${ alertConfig.mainText }</span> ${ alertConfig.subText }`;
-										resourcesHtml += `</div>`;
+					resourcesHtml += `<div class="collapsible-header" style="margin-top: 0;"><h5 style="font-weight: 300; margin-top: 0.25em; padding-top: 0;">`;
+						if(sessionScore === null){
+
+						} else {
+							resourcesHtml += `<i class="material-icons medium left ${ alertConfig.textStyle }">${ alertConfig.icon }</i>`;
+						}
+						resourcesHtml += `Resources for ${ val.title } (${ count })`;
+					resourcesHtml += `</h5></div>`;
+
+					resourcesHtml += `<div class="collapsible-body"><span>`;
+						// put an alert if necessary
+						if(sessionScore === null){
+
+						} else {
+							resourcesHtml += `<div class="row">`;
+								resourcesHtml += `<div class="${ alertConfig.divClass }" style="margin-top: -0.5em;">`;
+									resourcesHtml += `<div class="card-content">`;
+										resourcesHtml += `<!--<i class="material-icons">${ alertConfig.icon }</i>--><span style="font-weight: 700;">${ alertConfig.mainText }</span> ${ alertConfig.subText }`;
 									resourcesHtml += `</div>`;
 								resourcesHtml += `</div>`;
-							}
+							resourcesHtml += `</div>`;
+						}
 
+						val.sections.forEach(function(v, i){
 							var typeToIcon = {
 								'article':'subject',
 								'website':'web',
 								'video':'play_circle_outline'
 							}
-    						// list out resources
-    						v.resources.forEach(function(w, j){
-    							resourcesHtml += `<div class="row"><div class="col s12"><h5 style="font-size: 1.15em; font-weight: 400;"><a href="${ w.url }" target="_blank"><i class="material-icons left" style="font-size: 1.15em;">${ typeToIcon[w.type] }</i>${ w.title }</a> <!--(${ toTitleCase(w.type) })--></h5><p style="margin-left: 2.25em; line-height: 1.55em;">${ w.description } <!--[Est. Time: ${ w['completion-time-min'] } min.]--></p></div></div>`;
-    						})
-
-    						// resourcesHtml += `Lorem ipsum dolor sit amet.`;
-    					resourcesHtml += `</span></div>`;
-    				resourcesHtml += `</li>`;
-    			resourcesHtml += `</ul>`;
-			})
+							// list out resources
+							v.resources.forEach(function(w, j){
+								resourcesHtml += `<div class="row">`;
+									resourcesHtml += `<div class="col s12">`;
+										resourcesHtml += `<div style="margin-left: 2.5em;">`;
+											resourcesHtml += `<span class="grey-text text-lighten-1" style="font-size: 0.8em;">${ v.title }</span>`;
+										resourcesHtml += `</div>`;
+										resourcesHtml += `<h5 style="font-size: 1.15em; font-weight: 400; margin-top: 0.5em;">`;
+											resourcesHtml += `<a href="${ w.url }" target="_blank">`;
+												resourcesHtml += `<i class="material-icons left" style="font-size: 1.15em;">${ typeToIcon[w.type] }</i>`;
+												resourcesHtml += `${ w.title }`;
+											resourcesHtml += `</a>`;
+											resourcesHtml += ` <!--(${ toTitleCase(w.type) })-->`;
+										resourcesHtml += `</h5>`;
+										resourcesHtml += `<p style="margin-left: 2.25em; line-height: 1.55em;">`;
+											resourcesHtml += `${ w.description } `;
+											resourcesHtml += `<!--[Est. Time: ${ w['completion-time-min'] } min.]-->`;
+										resourcesHtml += `</p>`;
+									resourcesHtml += `</div>`;
+								resourcesHtml += `</div>`;
+							})		
+						})
+					resourcesHtml += `</span></div>`;
+				resourcesHtml += `</li>`;
+			resourcesHtml += `</ul>`;
 
 			$("#resources").append(resourcesHtml);
 		})

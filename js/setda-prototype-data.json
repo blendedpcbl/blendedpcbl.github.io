@@ -170,13 +170,6 @@
 				],
 				"resources":[
 					{
-						"title":"Engagement/Re-engagement of Stakeholders",
-						"url":"https://www.buildinitiative.org/Portals/0/Uploads/Documents/resource-center/community-systems-development/1A%202%20Engagement-Reengagement%20tool.pdf",
-						"type":"article",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
 						"title":"Knowing the \"Why\": How do leaders communicate with new teachers around the purpose and vision of their innovative models? (The Learning Accelerator)",
 						"url":"https://practices.learningaccelerator.org/problem-of-practice/knowing-the-why",
 						"type":"article",
@@ -202,9 +195,7 @@
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					}
 				],
-				"resources":[
-					
-				]
+				"resources":[]
 			},
 			{
 				"title":"Action Plan",
@@ -268,42 +259,14 @@
 						"title":"A Guide for Starting and Growing a Digital Learning Program (Digital Learning Collaborative)",
 						"url":"https://static1.squarespace.com/static/5a98496696d4556b01f86662/t/5c99401e7c8ddc0001bfb94b/1553547300537/DLC-KP_PlanningforQuality_1.0.pdf",
 						"type":"website",
-						"description":"When planning and launching a blended, online, or digital learning program, this roadmap serves as a guide for implementation.",
+						"description":"When planning and launching a blended, online, or digital learning program, this roadmap serves as a guide for implementation. Additionally, the Annual Report, <a href='https://static1.squarespace.com/static/5b2a5d54e74940efa50bef9f/t/5e6669dabc0a8b4eab4db9cb/1583770127936/DLC-KP-Snapshot2020_3.9.20.pdf' target='_blank'>Snapshot 2020: A Review of K-12 Online, Blended, and Digital Learning</a> provides a snapshot of digital learning activity.",
 						"completion-time-min":10
 					},
 					{
-						"title":"The Annual Report of the Digital Learning Collaborative: Snapshot 2020 - A review of K-12 online, blended, and digital learning",
-						"url":"",
-						"type":"article",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"CO: 2020-2021 Instructional Guidance for Diverse Learning Settings",
+						"title":"Instructional Guidance for Diverse Learning Settings (Colorado Department of Education)",
 						"url":"https://www.cde.state.co.us/standardsandinstruction/hii_all-content-areas",
 						"type":"website",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"Instructional Design Principles for Remote Teaching and Learning",
-						"url":"https://www.fi.ncsu.edu/resources/instructional-design-principles-for-remote-teaching-and-learning/",
-						"type":"website",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"Establishing or Reviewing a Decision-Making Process",
-						"url":"https://www.buildinitiative.org/Portals/0/Uploads/Documents/resource-center/community-systems-development/1B%203%20Establishing%20or%20Reviewing%20a%20Decision%20Making%20Process.pdf",
-						"type":"article",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"Tool for Performing a SWOT Analysis",
-						"url":"https://www.buildinitiative.org/Portals/0/Uploads/Documents/resource-center/community-systems-development/2C%205%20Perfoming%20a%20SWOT%20Analysis.pdf",
-						"type":"article",
-						"description":"",
+						"description":"Provides principles, practices, and strategies for high-impact teaching and learning experiences throughout in-person, online, and blended learning environments.",
 						"completion-time-min":10
 					},
 					{
@@ -314,10 +277,10 @@
 						"completion-time-min":10
 					},
 					{
-						"title":"Crowdsourced Data Supporting Student-Centered Learning",
+						"title":"Crowdsourced Data Supporting Student-Centered Learning (Students at the Center Hub)",
 						"url":"https://studentsatthecenterhub.org/compelling-data/",
 						"type":"website",
-						"description":"",
+						"description":"A library of research studies, external evaluations and evidence collected directly by practitioners that articulate the impacts of student-centered, personalized, and competency-based approaches.",
 						"completion-time-min":10
 					}
 				]
@@ -443,7 +406,15 @@
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					}
 				],
-				"resources":[]
+				"resources":[
+					{
+						"title":"Professional Learning Plans: A Workbook for States, Districts, and Schools (Learning Forward)",
+						"url":"https://learningforward.org/wp-content/uploads/2017/09/professional-learning-plans.pdf",
+						"type":"website",
+						"description":"Resources for developing short- and long-term plans for professional learning and implementation of the learning to guide educators in coordinating experiences focused on outcomes.",
+						"completion-time-min":0
+					}
+				]
 			},
 			{
 				"title":"Content, Tools, and Resources",
@@ -491,7 +462,22 @@
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					}
 				],
-				"resources":[]
+				"resources":[
+					{
+						"title":"LMS Selection And Implementation: Best Practices (Michigan Virtual Learning Research Institute)",
+						"url":"https://michiganvirtual.org/blog/lms-selection-and-implementation-best-practices/",
+						"type":"website",
+						"description":"his article provides both a process for deciding on a learning management system to align with district goals and objectives as well as a <i>Technical, Functional, System, and User Requirements spreadsheet</i> with ratings and notes and a <i>Cost Proposal Matrix</i> to support decision-making.",
+						"completion-time-min":0
+					},
+					{
+						"title":"Digital Skills for a Global Society (Dell Technologies and ISTE)",
+						"url":"https://www.getdigitalskills.org/",
+						"type":"website",
+						"description":"This collection guides students, educators, and caregivers in strengthening their digital literacy skills through questionnaires as well as aligned and curated resources.",
+						"completion-time-min":0
+					}
+				]
 			},
 			{
 				"title":"Logistics: Technology Support",
@@ -576,36 +562,7 @@
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					}
 				],
-				"resources":[
-					{
-						"title":"Multiple Access Points for Tech Support",
-						"url":"https://practices.learningaccelerator.org/strategies/multiple-access-points-for-tech-support",
-						"type":"website",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"Developing a Communications Plan",
-						"url":"https://www.buildinitiative.org/Portals/0/Uploads/Documents/resource-center/community-systems-development/3A%201%20Developing%20a%20Communication%20Plan.pdf",
-						"type":"article",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"Communications and Engagement Workbook",
-						"url":"https://www.buildinitiative.org/Portals/0/Uploads/Documents/resource-center/community-systems-development/3A%201%20Developing%20a%20Communication%20Plan.pdf",
-						"type":"website",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"Sustaining Family Engagement in the Formative Assessment Process: Assessment of Teachers’ Professional Learning Needs",
-						"url":"https://www.buildinitiative.org/Portals/0/Uploads/Documents/Resources/FamilyEngagement/Sustainability%20-%20Teacher%20Assess%20-%20Principals-Final.pdf",
-						"type":"article",
-						"description":"",
-						"completion-time-min":10
-					}
-				]
+				"resources":[]
 			},
 			{
 				"title":"Policies",
@@ -631,10 +588,10 @@
 				],
 				"resources":[
 					{
-						"title":"Determining Attendance and Alternatives to Seat-Time",
+						"title":"Determining Attendance and Alternatives to Seat-Time (Aurora Institute)",
 						"url":"https://aurora-institute.org/wp-content/uploads/determining-attendance-and-alternatives-to-seat-time.pdf",
 						"type":"article",
-						"description":"",
+						"description":"State policy examples are provided as states and districts consider attendance policies related to competency-based learning that consider time on task, participation, and evidence of student work.",
 						"completion-time-min":10
 					}
 				]
@@ -714,7 +671,7 @@
 						"title":"The Annual Report of the Digital Learning Collaborative: Snapshot 2020 - A review of K-12 online, blended, and digital learning",
 						"url":"https://static1.squarespace.com/static/5b2a5d54e74940efa50bef9f/t/5e6669dabc0a8b4eab4db9cb/1583770127936/DLC-KP-Snapshot2020_3.9.20.pdf",
 						"type":"article",
-						"description":"Digital Learning Collaborative report; Includes visual for the spectrum of defining dimensions of an online program- p.4 (e.g. comprehensiveness, reach, type, delivery); Includes sections for various structures of online/blended learning environments; Each section includes related info; Definition, level of engagement, time and space, student demographics, and case studies",
+						"description":"Digital Learning Collaborative report; Includes visual for the spectrum of defining dimensions of an online program- p.4 (e.g. comprehensiveness, reach, type, delivery); Includes sections for various structures of online/blended learning environments; Each section includes related info; Definition, level of engagement, time and space, student demographics, and case studies.",
 						"completion-time-min":10
 					}
 				]
@@ -752,31 +709,24 @@
 				],
 				"resources":[
 					{
-						"title":"Student Support Strategies",
-						"url":"",
+						"title":"Mentoring Fundamentals: A Guide to Mentoring Online Learners (Michigan Virtual Learning Research Institute)",
+						"url":"https://micourses.org/resources/pdf/toolkit/mentorguide.pdf",
 						"type":"website",
-						"description":"",
+						"description":"This resource provides an understanding of the key components of mentoring students engaged in online courses including roles and responsibilities of the mentor and tools for working with students.",
 						"completion-time-min":10
 					},
 					{
-						"title":"MENTOR FUNDAMENTALS A GUIDE TO MENTORING ONLINE LEARNERS",
-						"url":"",
-						"type":"website",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"Relationship Mapping Strategy",
+						"title":"Relationship Mapping Strategy (Harvard Graduate School of Education)",
 						"url":"https://mcc.gse.harvard.edu/resources-for-educators/relationship-mapping-strategy",
 						"type":"website",
-						"description":"",
+						"description":"Relationship mapping provides a strategy for building safe, positive, and caring classroom and school communities.",
 						"completion-time-min":10
 					},
 					{
-						"title":"Educating All Learners: Resource Library",
+						"title":"Resource Library (Educating All Learners)",
 						"url":"https://educatingalllearners.org/resource-library/",
 						"type":"website",
-						"description":"",
+						"description":"Resources curated by experts across the fields of disability advocacy, special education, civil rights, and K-12 nonprofits to support students with disabilities in various learning environments.",
 						"completion-time-min":10
 					}
 				]
@@ -816,94 +766,31 @@
 				],
 				"resources":[
 					{
-						"title":"Teacher Guide to Online Learning",
-						"url":"",
-						"type":"website",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"Staff: Ensure staff have a clear understanding of expectations and feel supported by leadership",
-						"url":"",
-						"type":"website",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"Instructional Strategies for Virtual Learning: A Companion Tool to the NIET Teaching Standards Rubric What effective teaching looks and sounds like in a virtual setting",
-						"url":"",
-						"type":"website",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
 						"title":"Instructional Guidance for Diverse Learning Settings (Colorado Department of Education)",
 						"url":"https://www.cde.state.co.us/standardsandinstruction/hii_all-content-areas",
 						"type":"website",
-						"description":"",
+						"description":"Provides principles, practices, and strategies for high-impact teaching and learning experiences throughout in-person, online, and blended learning environments.",
 						"completion-time-min":10
 					},
 					{
-						"title":"Instructional Design Principles for Remote Teaching and Learning",
-						"url":"",
+						"title":"Instructional Design Principles for Remote Teaching and Learning (NC State University: William and Ida Friday Institute for Educational Innovation)",
+						"url":"https://www.fi.ncsu.edu/resources/instructional-design-principles-for-remote-teaching-and-learning/",
 						"type":"website",
-						"description":"",
+						"description":"Overarching instructional design principles to provide guidance for student learning when engaging in remote learning.",
 						"completion-time-min":10
 					},
 					{
-						"title":"How to Choose Words That Motivate Students During Online Learning",
-						"url":"",
+						"title":"Universal Design for Learning (UDL) Guidelines (CAST)",
+						"url":"https://udlguidelines.cast.org/",
 						"type":"website",
-						"description":"",
+						"description":"A tool used in the implementation of Universal Design for Learning, the guidelines provide a framework for implementation in various learning environments including concrete suggestions that can be applied to any content area.",
 						"completion-time-min":10
 					},
 					{
-						"title":"Course Evaluation Checklist v2.0 - Template",
-						"url":"",
+						"title":"Utah's High Quality Instructional (HQI) Cycle (Utah State Board of Education)",
+						"url":"https://schools.utah.gov/file/40bd2cbe-004c-4a64-86ee-be3170c45eda#:~:text=The%20HQI%20cycle%20is%20iterative,%2D%20and%20long%2Dterm%20goals.&text=Educators%20believe%20that%20shared%20understand,turn%20impact%20student%20learning%20statewide.",
 						"type":"website",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"2020-2021 Instructional Guidance for Diverse Learning Settings (Colorado Dept. of Education)",
-						"url":"",
-						"type":"website",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"Universal Design for Learning Guidelines",
-						"url":"",
-						"type":"website",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"Utah's High Quality Instructional (HQI) Cycle",
-						"url":"",
-						"type":"website",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"Nurturing a Classroom Community During Distance Learning",
-						"url":"",
-						"type":"website",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"How Can Educators Tap Into Research to Increase Engagement During Remote Learning?",
-						"url":"",
-						"type":"website",
-						"description":"",
-						"completion-time-min":10
-					},
-					{
-						"title":"Distance Learning MTSS Framework: Academic Engagement and Attendance",
-						"url":"",
-						"type":"website",
-						"description":"",
+						"description":"Provides an example of iterative planning and instructional delivery processes teachers can use to support PBCL.",
 						"completion-time-min":10
 					}
 				]
@@ -951,9 +838,7 @@
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					}
 				],
-				"resources":[
-					
-				]
+				"resources":[]
 			},
 			{
 				"title":"Digital Tools and Resources",
@@ -1001,7 +886,13 @@
 					}
 				],
 				"resources":[
-					
+					{
+						"title":"Privacy and Security (Common Sense Education)",
+						"url":"https://www.commonsense.org/education/digital-citizenship/topic/privacy-and-security",
+						"type":"website",
+						"description":"A collection of lessons to introduce students to online privacy and safety and core considerations when sharing information.",
+						"completion-time-min":0
+					}
 				]
 			},
 			{
@@ -1088,7 +979,27 @@
 					}
 				],
 				"resources":[
-					
+					{
+						"title":"Personalized, Competency-Based Learning Framework (Utah State Board of Education)",
+						"url":"https://www.schools.utah.gov/curr/pcbl?mid=5288&tid=3",
+						"type":"website",
+						"description":"Six essential components that when implemented collectively provide the learning conditions needed to implement personalized, competency-based learning.",
+						"completion-time-min":0
+					},
+					{
+						"title":"Introduction to Competency-Based Education (Aurora Institute)",
+						"url":"https://aurora-institute.org/our-work/competencyworks/competency-based-education/",
+						"type":"website",
+						"description":"An overview of competency-based education and related resources.",
+						"completion-time-min":0
+					},
+					{
+						"title":"Building Blocks Framework (LearnLaunch Institute)",
+						"url":"https://www.learnlaunch.org/building-blocks-tool/",
+						"type":"website",
+						"description":"The Building Blocks Framework includes 10 Elements that include guiding questions that support an asset-and-gap analysis to identify action steps that lead toward equitable outcomes.",
+						"completion-time-min":0
+					}
 				]
 			}
 		]
