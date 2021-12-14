@@ -382,6 +382,9 @@ $(document).ready(function(){
 	// initialize the floating action button
 	$('.fixed-action-btn').floatingActionButton();
 
+	// initialize the tap target
+	$('.tap-target').tapTarget();
+
 	// initialize tooltips
 	$('.tooltipped').tooltip();
 
