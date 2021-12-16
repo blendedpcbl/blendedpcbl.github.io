@@ -72,28 +72,54 @@ $(document).ready(function(){
 	$.getJSON('js/setda-prototype-data.json', function(data){
 		// console.log("success");
 
+		// object to store questions and answers
+		var answers = {};
+
 		// BUILD ASSESSMENT
 		data.forEach(function(val, ind){
 			// console.log(val);
 			var assessmentHtml = '';
 			assessmentHtml += `<ul class="collapsible expandable">`;
 			assessmentHtml += `<li><div class="collapsible-header z-depth-0" style="margin: 0; padding: 0;"><div class="card ${ val['background-color'] }" style="margin: 0; border-radius: 0; width: 100%;"><div class="card-content ${ val['text-color'] }"><span class="card-title" style="font-weight: 600;"><img src="./icon/${ val['dell-icon'] }_white-64px.png" class="dell-icon large">${ val.title }</span><span style="font-style: italic; font-size: 1.35em;">${ val.description }</span></div></div></div><div class="collapsible-body"><span>`;
+
+			answers[val.title] = {
+				'index': ind,
+				'title': val.title,
+				'description': val.description,
+				'forAverage': [],
+				'sections': {}
+			};
 			
 			val.sections.forEach(function(v, i){
 				assessmentHtml += `<div class="row"><div class="col s12"><h4 style="margin-top: 1.5em; font-weight: 300;">${ v.title }</h4></div></div>`;
+				
+				answers[val.title]['sections'][v.title] = {
+					'index': i,
+					'title': v.title,
+					'questions': {}
+				}
+				
 				v.assessment.forEach(function(w, j){
 					assessmentHtml += `<div class="row"><div class="col s12"><h5 style="font-size: 1.35em;">${ w.question }</h5>`;
 					assessmentHtml += `<div class="row responses" style="margin-top: 2em;">`;
 					w.responses.forEach(function(x, k){
-						assessmentHtml += `<div class="col s12 m6 l3"><a class="waves-effect waves-light btn dell darken-1 response-btn btn-small" style="width: 100%; margin-bottom: 1em;" data-value=${ k+1 } data-section="${ val.title.replace(/\W+/g, '').toLowerCase() }">${ toTitleCase(x) }</a></div>`;
+						assessmentHtml += `<div class="col s12 m6 l3"><a class="waves-effect waves-light btn dell darken-1 response-btn btn-small" style="width: 100%; margin-bottom: 1em;" data-value=${ k+1 } data-section="${ val.title.replace(/\W+/g, '').toLowerCase() }" data-section-name="${ val.title }" data-subsection-name="${ v.title }" data-question="${ w.question }">${ toTitleCase(x) }</a></div>`;
 					})
 					assessmentHtml += `</div></div></div>`;
+					
+					answers[val.title]['sections'][v.title]['questions'][w.question] = {
+						'index': j,
+						'question': w.question,
+						'answer': 0
+					}
 				})
 			})
 			assessmentHtml += `</span></div></li></ul>`;
 
 			$("#assessment").append(assessmentHtml);
 		})
+
+		// console.log(answers);
 
 		var submitHtml = '';
 		submitHtml += `<a name="submit"></a><div class="row" style="margin-top: 8em;">`;
@@ -158,14 +184,63 @@ $(document).ready(function(){
 					}
 				}
 				results[section]['values'].push(responseValue);
+
+				var sectionName = $(this).attr("data-section-name");
+				var subsectionName = $(this).attr("data-subsection-name");
+				var question = $(this).attr("data-question");
+				//  var responseValue = $(this).attr("data-value");
+
+				answers[sectionName]['sections'][subsectionName]['questions'][question]['answer'] = responseValue;
+				answers[sectionName]['forAverage'].push(parseInt(responseValue));
 			});
 			Object.keys(results).forEach(function(v, i){
 				var average = results[v]['values'].reduce((a,b) => parseInt(a) + parseInt(b), 0) / results[v]['values'].length;
 				results[v]['average'] = average;
 				sessionStorage.setItem(v, average);
 			})
-			console.log(results);
+			
+			sessionStorage.setItem('answers', JSON.stringify(answers));
 		})
+
+
+		// BUILD ANSWERS
+		var storedAnswers = JSON.parse(sessionStorage.getItem('answers'))
+		if(!!storedAnswers){
+			// console.log(storedAnswers);
+			
+			// build answers
+			var answersHTML = '';
+			var responses = ['Did not answer', 'Strongly disagree', 'Disagree', 'Agree', 'Strongly Agree'];
+			var responseColors = ['grey-text', 'red-text', 'red-text', 'green-text', 'green-text'];
+			Object.values(storedAnswers).sort(function(a, b) {return a.index - b.index}).forEach(function(val, ind){
+				answersHTML += `<div class="row">`;
+					answersHTML += `<div class="col s12">`;
+						answersHTML += `<h4>${val.title}</h4>`;
+						answersHTML += `<p style="font-size: 1.25em; font-weight: 300;">Average: ${ (val.forAverage.length > 0) ? (val.forAverage.reduce(function (prev, curr) {return prev + curr}, 0)/val.forAverage.length).toFixed(1) : '--' }/4`;
+						Object.values(val.sections).sort(function(a, b) {return a.index - b.index}).forEach(function(v, i){
+							answersHTML += `<div class="row">`;
+								answersHTML += `<div class="col s12 m10 offset-m1">`;
+									answersHTML += `<h5>${v.title}</h5>`;
+									Object.values(v.questions).sort(function(a, b) {return a.index - b.index}).forEach(function(w, j){
+										answersHTML += `<div class="row">`;
+											answersHTML += `<div class="col s12">`;
+												answersHTML += `<span style="font-weight: 700">Q: ${w.question}</span><br>`;
+												answersHTML += `A: <span class="${responseColors[w.answer]}">${responses[w.answer]}</span>`;
+											answersHTML += `</div>`;
+										answersHTML += `</div>`;
+									})
+								answersHTML += `</div>`;
+							answersHTML += `</div>`;
+						})
+					answersHTML += `</div>`;
+				answersHTML += `</div>`;
+			})
+
+			$("#answers").html(answersHTML);
+		} else {
+			$("#answers").html("<p>No answers yet. Please take the <a href='assessment.html'>Readiness Assessment</a> first.</p>")
+		}
+		
 
 
 

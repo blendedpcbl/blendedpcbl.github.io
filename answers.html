@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Blended PCBL : Resources</title>
+	<title>Blended PCBL : Assessment Responses</title>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
 
 	<meta charset="utf-8">
@@ -27,46 +27,39 @@
 	  gtag('js', new Date());
 
 	  gtag('config', 'G-6SDKK7N4JL');
-	</script> 
+	</script>
 </head>
 <body>
 	<nav class="dell"></nav>
 	<div class="parallax-container valign-wrapper white-text" style="max-height: 65vh;">
 	    <div class="parallax">
-	      <img src="./img/gettyimages-1216391310_la3310_2n1-1280x1280.jpeg">
+	      <img src="./img/shutterstock_726438898-1280x1280.jpeg">
 	      <div class="overlay"></div>
 	    </div>
-	    <h1 style="margin: 2em;">Resources to Support Your Journey</h1>
+	    <h1 style="margin: 2em;">Your Readiness Assessment Responses</h1>
 	</div>
   	<div class="container">
   		<div class="row" style="margin-top: 2em;">
   			<div class="col s12 m10 offset-m1">
-  				<p>These curated resources and vetted examples from trusted sources provide strategies for moving forward in your journey.  Complete the <a href="assessment.html">assessment</a> for a customized list of resources aligned with your needs, or review all of the resources below.</p>
+  				<p>The readiness assessment is designed to provide an opportunity to determine strengths and opportunities for focus in developing personalized, competency-based learning environments.  After <a href="assessment.html">evaluating your readiness</a>, you have been provided with customized <a href="resources.html">resources</a> to guide you on your PCBL journey.</p>
+  			</div>
+  			<!-- <div class="col s12 m10 offset-m1">
+  				<p>It is recommended that the readiness assessment be completed as a school or district team of members with diverse perspectives.  It may also be helpful to review and respond to the <a href="reflection.html">reflection questions</a> before completing the readiness assessment.</p>
+  			</div> -->
+  			<div class="col s12 m10 offset-m1">
+  				<!-- <p><span style="font-weight: 700">Expand a section below to self-assess.</span></p> -->
   			</div>
   		</div>
-  	</div>
-  	<div class="col s12 m10 offset-m1 center-align" id="answer-link">
-  				
   	</div>
 	<div class="container">
 		<div class="row">
 			<form>
-				<div class="col s12" id="resources"></div>
+				<div class="col s12" id="answers"></div>
 			</form>
 		</div>
 	</div>
-
+	
 	<footer class="page-footer dell darken-1" style="margin-top: 10em; padding-bottom: 1em;"></footer>
 	<script src="js/script.js"></script>
-	<script>
-		var storedAnswers = JSON.parse(sessionStorage.getItem('answers'))
-		if(!!storedAnswers){
-			$("#answer-link").html("<p><a href='answers.html'>Click here to view your readiness assessment responses.</a></p>");
-			// console.log("there are answers");
-		}
-		//  else {
-		// 	console.log("no answers");
-		// };
-	</script>
 </body>
 </html>
