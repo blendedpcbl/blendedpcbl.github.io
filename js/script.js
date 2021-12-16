@@ -212,7 +212,7 @@ $(document).ready(function(){
 			var answersHTML = '';
 			var responses = ['Did not answer', 'Strongly disagree', 'Disagree', 'Agree', 'Strongly Agree'];
 			var responseColors = ['grey-text', 'red-text', 'red-text', 'green-text', 'green-text'];
-			var comment = [' - This may be an area to focus on.', ' - This may be an area to focus on.', '', ' - This seems to be an area of strength.'];
+			var comment = [' - This may be an area to focus on.', ' - This may be an area to focus on.', '', ' - This seems to be an area of strength.', ' - This seems to be an area of strength.'];
 			Object.values(storedAnswers).sort(function(a, b) {return a.index - b.index}).forEach(function(val, ind){
 				answersHTML += `<div class="row">`;
 					answersHTML += `<div class="col s12">`;
