@@ -212,11 +212,13 @@ $(document).ready(function(){
 			var answersHTML = '';
 			var responses = ['Did not answer', 'Strongly disagree', 'Disagree', 'Agree', 'Strongly Agree'];
 			var responseColors = ['grey-text', 'red-text', 'red-text', 'green-text', 'green-text'];
+			var comment = [' - This may be an area to focus on.', ' - This may be an area to focus on.', '', ' - This seems to be an area of strength.'];
 			Object.values(storedAnswers).sort(function(a, b) {return a.index - b.index}).forEach(function(val, ind){
 				answersHTML += `<div class="row">`;
 					answersHTML += `<div class="col s12">`;
 						answersHTML += `<h4>${val.title}</h4>`;
-						answersHTML += `<p style="font-size: 1.25em; font-weight: 300;">Average: ${ (val.forAverage.length > 0) ? (val.forAverage.reduce(function (prev, curr) {return prev + curr}, 0)/val.forAverage.length).toFixed(1) : '--' }/4`;
+						var avg = (val.forAverage.reduce(function (prev, curr) {return prev + curr}, 0)/val.forAverage.length).toFixed(1);
+						answersHTML += `<p style="font-size: 1.25em; font-weight: 300;">Average: ${ (val.forAverage.length > 0) ? avg : '--' }/4 <span class="${responseColors[Math.floor(avg)]}">${comment[Math.floor(avg)]}</span></p>`;
 						Object.values(val.sections).sort(function(a, b) {return a.index - b.index}).forEach(function(v, i){
 							answersHTML += `<div class="row">`;
 								answersHTML += `<div class="col s12 m10 offset-m1">`;
@@ -237,6 +239,24 @@ $(document).ready(function(){
 			})
 
 			$("#answers").html(answersHTML);
+
+			// build word version of answers
+			var wordHtml = '';
+			Object.values(storedAnswers).sort(function(a, b) {return a.index - b.index}).forEach(function(val, ind){
+				wordHtml += `<h2>${val.title}</h2>`;
+				var avg = (val.forAverage.reduce(function (prev, curr) {return prev + curr}, 0)/val.forAverage.length).toFixed(1);
+				wordHtml += `<p>Average: ${ (val.forAverage.length > 0) ? avg : '--' }/4 ${comment[Math.floor(avg)]}</p>`;
+				Object.values(val.sections).sort(function(a, b) {return a.index - b.index}).forEach(function(v, i){
+					wordHtml += `<h3>${v.title}</h3>`;
+					Object.values(v.questions).sort(function(a, b) {return a.index - b.index}).forEach(function(w, j){
+						wordHtml += `<p><b>Q: ${w.question}</b><br>`;
+						wordHtml += `A: ${responses[w.answer]}</p>`;
+					})
+				})	
+			})
+
+			$("#wordAnswers").append(wordHtml);
+
 		} else {
 			$("#answers").html("<p>No answers yet. Please take the <a href='assessment.html'>Readiness Assessment</a> first.</p>")
 		}
@@ -645,6 +665,48 @@ $(document).ready(function(){
 			// print
 			window.print();
 		}, 600);
+	})
+
+	$('#big-button-for-answers').click(function(){
+		console.log("word button clicked");
+
+		// from: https://www.codexworld.com/export-html-to-word-doc-docx-using-javascript/
+		function Export2Word(element, filename = ''){
+		    var preHtml = "<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Export HTML To Doc</title></head><body>";
+		    var postHtml = "</body></html>";
+		    var html = preHtml+document.getElementById(element).innerHTML+postHtml;
+
+		    var blob = new Blob(['\ufeff', html], {
+		        type: 'application/msword'
+		    });
+		    
+		    // Specify link url
+		    var url = 'data:application/vnd.ms-word;charset=utf-8,' + encodeURIComponent(html);
+		    
+		    // Specify file name
+		    filename = filename?filename+'.doc':'setda-assessment-responses.doc';
+		    
+		    // Create download link element
+		    var downloadLink = document.createElement("a");
+
+		    document.body.appendChild(downloadLink);
+		    
+		    if(navigator.msSaveOrOpenBlob ){
+		        navigator.msSaveOrOpenBlob(blob, filename);
+		    }else{
+		        // Create a link to the file
+		        downloadLink.href = url;
+		        
+		        // Setting the file name
+		        downloadLink.download = filename;
+		        
+		        //triggering the function
+		        downloadLink.click();
+		    }
+		    
+		    document.body.removeChild(downloadLink);
+		}
+		Export2Word("wordAnswers");
 	})
 
 
