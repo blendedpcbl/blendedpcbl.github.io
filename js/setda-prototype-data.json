@@ -476,6 +476,13 @@
 						"type":"website",
 						"description":"This collection guides students, educators, and caregivers in strengthening their digital literacy skills through questionnaires as well as aligned and curated resources.",
 						"completion-time-min":0
+					},
+					{
+						"title":"Digital Equity Guide (The Learning Accelerator)",
+						"url":"https://practices.learningaccelerator.org/guides/digital-equity/introduction",
+						"type":"website",
+						"description":"This guide supports conversations focused on digital equity with the goal of developing action plans. Activities, strategies, and concrete examples as well as a self-assessment tool and planning companion workbook are included.",
+						"completion-time-min":0
 					}
 				]
 			},
@@ -999,6 +1006,13 @@
 						"type":"website",
 						"description":"The Building Blocks Framework includes 10 Elements that include guiding questions that support an asset-and-gap analysis to identify action steps that lead toward equitable outcomes.",
 						"completion-time-min":0
+					},
+					{
+						"title":"The Journey Towards Mastery Learning (Mastery Transcript Consortium)",
+						"url":"https://mastery.org/wp-content/uploads/2019/12/JourneyToMastery_2019.10.24-1.pdf",
+						"type":"article",
+						"description":"This resource describes the interrelated processes when designing for competency-based (mastery) learning.",
+						"completion-time-min":0
 					}
 				]
 			}
@@ -1083,7 +1097,43 @@
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					}
 				],
-				"resources":[]
+				"resources":[
+					{
+						"title":"An Improvement Science Approach to Understanding a Problem in Your System (Institute of Education Sciences)",
+						"url":"https://ies.ed.gov/ncee/edlabs/regions/west/relwestFiles/pdf/FINAL-REL-Improvement-Science-Infographic-508.pdf",
+						"type":"article",
+						"description":"An infographic that addresses a process for better understanding how a system is producing a problem.",
+						"completion-time-min":0
+					},
+					{
+						"title":"5 Whys: Getting to the Root of a Problem Quickly (Mind Tools)",
+						"url":"https://www.mindtools.com/pages/article/newTMC_5W.htm",
+						"type":"website",
+						"description":"A technique for revealing the underlying causes of a problem.",
+						"completion-time-min":0
+					},
+					{
+						"title":"Continuous Improvement in Education (Carnegie Foundation for the Advancement of Teaching)",
+						"url":"https://www.carnegiefoundation.org/wp-content/uploads/2014/09/carnegie-foundation_continuous-improvement_2013.05.pdf",
+						"type":"article",
+						"description":"This white paper identifies and describes the commonalities and differences of organizations involved in continuous improvement efforts.",
+						"completion-time-min":0
+					},
+					{
+						"title":"Enabling Conditions and Capacities for Continuous Improvement: A Framework for Measuring and Supporting Progress Toward the Goals of the Statewide System of Support (Policy Analysis for California Education)",
+						"url":"https://edpolicyinca.org/sites/default/files/2020-09/r_myung_sep2020.pdf",
+						"type":"article",
+						"description":"This report focuses on the ways in which organizations and individuals can foster the success of continuous improvement.",
+						"completion-time-min":0
+					},
+					{
+						"title":"Transforming Educational Systems toward Continuous Improvement: A Reflection Guide for K-12 Executive Leaders (Carnegie Foundation for the Advancement of Teaching)",
+						"url":"https://www.carnegiefoundation.org/wp-content/uploads/2020/04/Carnegie_Transform_EdSystems.pdf",
+						"type":"article",
+						"description":"A reflection guide summarizing the early learning of system-level leaders facilitating transformational change including key dispositions, core practices, and levers of transformation.",
+						"completion-time-min":0
+					}
+				]
 			},
 			{
 				"title":"Operational Considerations",
@@ -1108,7 +1158,22 @@
 						"responses":["Strongly Disagree", "Disagree", "Agree","Strongly Agree"]
 					}
 				],
-				"resources":[]
+				"resources":[
+					{
+						"title":"Ayer Elementary School’s Resilient Conditions for Improvement: Piloting Amid COVID-19 (Policy Analysis for California Education)",
+						"url":"https://edpolicyinca.org/sites/default/files/2020-09/pb_kimner_sep2020.pdf",
+						"type":"article",
+						"description":"The continuous improvement journey of educators at Ayer Elementary in Fresno Unified School District starting in 2016 and continuing through the pandemic focused on a shared purpose, mutual trust, structures and resources for collaborative work, and preparation and mobilization of improvement capabilities is shared. This case study focuses on both short- and long-term improvement practices.",
+						"completion-time-min":0
+					},
+					{
+						"title":"Deeper Learning Networks: Taking Student-Centered Learning and Equity to Scale (Learning Policy Institute)",
+						"url":"https://learningpolicyinstitute.org/sites/default/files/product-files/Deeper_Learning_Networks_REPORT.pdf",
+						"type":"article",
+						"description":"This study shares the stories of several networks of schools who were able to scale and sustain educational practices that advance equity and achieve positive outcomes for students.",
+						"completion-time-min":0
+					}
+				]
 			}
 		]
 	}
