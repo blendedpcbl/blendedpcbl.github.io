@@ -40,6 +40,7 @@ $(document).ready(function(){
         footer += '<div class="row">';
 			footer += '<div class="col l6 s12">';
         		footer += '<p style="font-size: 0.8em;">This project was developed through a collaboration between SETDA and Dell Technologies. For additional information on building Personalized, Competency-Based Learning through Blended Learning, please contact <a href="https://www.setda.org/" target="_blank">SETDA</a> or <a href="contact.html">Dell Technologies</a>.</p>';
+        		footer += '<p class="grey-text text-lighten-4" style="font-size: 0.8em;">For more information on how this site uses cookies and to manage your cookie settings, <a href="cookies.html">click here</a>.</p>';
         		footer += '<p class="grey-text text-lighten-4" style="font-size: 0.8em;">Except where otherwise noted, this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons license CC BY-NC-SA 4.0</a>.</p>';
         	footer += '</div>';
       		footer += '<div class="col l4 offset-l2 s12">';

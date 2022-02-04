@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blended PCBL : Cookies</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+  <link href="./css/styles.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6SDKK7N4JL"></script>
+  <script>
+    var optionalCookies = sessionStorage.getItem('optionalCookies');
+    
+    // GA enabled if optionalCookies is true or null, disabled if false
+    if(optionalCookies == "true" || optionalCookies == null){
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-6SDKK7N4JL');
+    }
+  </script>
+</head>
+<body>
+	<nav class="dell"></nav>
+  <div class="parallax-container valign-wrapper white-text" style="max-height: 65vh;">
+      <div class="parallax">
+        <img src="./img/shutterstock_726438898-1280x1280.jpeg">
+        <div class="overlay"></div>
+      </div>
+      <h1 style="margin: 2em;">Cookies</h1>
+  </div>
+	<div class="container">
+    <div class="row" style="margin-top: 2em;">
+      <div class="col s12 m10 offset-m1">
+        <p>This site uses cookies and similar technologies to help tailor your experience, to save your work, and to tell us which parts of the website you have visited. Some of these cookies (personalization, saving work) are required for the site to function properly, whereas others (page analytics) help us understand how to improve the site's user experience.</p>
+      </div>
+      <div class="col s12 m10 offset-m1">
+        <h4>Essential Cookies</h4>
+        <p>The site leverages your browser's local and session storage in order to function properly. No data is transmitted outside of your browser by essential cookies, and essential cookies cannot be disabled.</p>
+      </div>
+      <div class="col s12 m10 offset-m1">
+        <h4>Optional Cookies</h4>
+        <p>The site uses <a href="https://analytics.google.com/analytics/web/" target="_blank">Google Analytics</a> to tell us which parts of the site you have visited. Optional cookies are enabled by default, but you can toggle your preference below.</p>
+        <div class="switch center-align">
+          <label>
+            Disabled
+            <input type="checkbox">
+            <span class="lever"></span>
+            Enabled
+          </label>
+        </div>
+      </div>
+		</div>
+	</div>
+
+	<footer class="page-footer dell darken-1" style="margin-top: 10em; padding-bottom: 1em;"></footer>
+  <script src="js/script.js"></script>
+  <script>
+    var optionalCookies = sessionStorage.getItem('optionalCookies');
+    console.log(optionalCookies);
+    
+    // set the toggle: enabled if true or null, disabled if false
+    if(optionalCookies == "true" || optionalCookies == null){
+      $("input").prop('checked', true);
+    } else {
+      $("input").prop('checked', false);
+    }
+
+    // set session value on change
+    $("input").on('change', function(){
+      var optionalCookies = $(this).prop('checked');
+      sessionStorage.setItem('optionalCookies', optionalCookies);
+    })
+
+  </script>
+</body>
+</html>

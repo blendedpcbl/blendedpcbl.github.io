@@ -20,14 +20,19 @@
     <link href="./css/styles.css" rel="stylesheet">
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6SDKK7N4JL"></script>
-    <script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6SDKK7N4JL"></script>
+  <script>
+    var optionalCookies = sessionStorage.getItem('optionalCookies');
+    
+    // GA enabled if optionalCookies is true or null, disabled if false
+    if(optionalCookies == "true" || optionalCookies == null){
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'G-6SDKK7N4JL');
-    </script>
+    }
+  </script>
 </head>
 <body>
 	<nav class="dell"></nav>
