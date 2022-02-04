@@ -469,11 +469,18 @@ $(document).ready(function(){
 			modalHTML += `<div id="modal1" class="modal">`;
 				modalHTML += `<div class="modal-content">`;
 					// modalHTML += `<h4>Modal Header</h4>`;
-					modalHTML += `<p>This site uses cookies and similar technologies to help tailor your experience, to save your work, and to tell us which parts of the website you have visited. Some of these cookies (personalization, saving work) are required for the site to function properly, whereas others (page analytics) help us understand how to improve the site's user experience.</p>`;
+					modalHTML += `<p>This site uses cookies and similar technologies to personalize and enhance your experience as described in our Cookie Notice. You may agree to all cookies on the site by clicking Accept All, or decline non-essential analytic cookies by clicking Decline All. For more information, click Manage Cookies.</p>`;
 				modalHTML += `</div>`;
 				modalHTML += `<div class="modal-footer">`;
-					modalHTML += `<a href="#!" class="modal-close waves-effect dell white-text btn-flat accept-all">Accept All</a>`;
-					modalHTML += `<a href="cookies.html" class="modal-close waves-effect waves-green btn-flat manage-cookies">Manage Cookies</a>`;
+					modalHTML += `<div class="row">`;
+						modalHTML += `<div class="col s12 center-align">`;
+							modalHTML += `<a href="#!" class="modal-close waves-effect dell white-text btn accept-all" style="margin: 0 0.25em;">Accept All</a>`;
+							modalHTML += `<a href="#!" class="modal-close waves-effect white black-text btn decline-all" style="margin: 0 0.25em;">Decline All</a>`;
+						modalHTML += `</div>`;
+						modalHTML += `<div class="col s12 center-align" style="margin: 1em 0;">`;
+							modalHTML += `<a href="cookies.html" class="waves-effect manage-cookies orange-text text-lighten-1" style="font-size: 0.8em;">Manage Cookies</a>`;
+						modalHTML += `</div>`;
+					modalHTML += `</div>`;
 				modalHTML += `</div>`;
 			modalHTML += `</div>`;
 
@@ -487,6 +494,10 @@ $(document).ready(function(){
 		$(".accept-all").click(function(){
 			sessionStorage.setItem('optionalCookies', 'true');
 			$("input[name='cookies']").prop('checked', true);
+		})
+		$(".decline-all").click(function(){
+			sessionStorage.setItem('optionalCookies', 'false');
+			$("input[name='cookies']").prop('checked', false);
 		})
 		$(".manage-cookies").click(function(){
 			sessionStorage.setItem('optionalCookies', 'false');
