@@ -25,7 +25,7 @@
     var optionalCookies = sessionStorage.getItem('optionalCookies');
     
     // GA enabled if optionalCookies is true or null, disabled if false
-    if(optionalCookies == "true" || optionalCookies == null){
+    if(optionalCookies == "true"){
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -58,7 +58,7 @@
         <div class="switch center-align">
           <label>
             Disabled
-            <input type="checkbox">
+            <input type="checkbox" name="cookies">
             <span class="lever"></span>
             Enabled
           </label>
@@ -74,16 +74,20 @@
     console.log(optionalCookies);
     
     // set the toggle: enabled if true or null, disabled if false
-    if(optionalCookies == "true" || optionalCookies == null){
-      $("input").prop('checked', true);
+    if(optionalCookies == "true"){
+      $("input[name='cookies']").prop('checked', true);
     } else {
-      $("input").prop('checked', false);
+      $("input[name='cookies']").prop('checked', false);
     }
 
     // set session value on change
-    $("input").on('change', function(){
+    $("input[name='cookies']").on('change', function(){
       var optionalCookies = $(this).prop('checked');
       sessionStorage.setItem('optionalCookies', optionalCookies);
+    })
+
+    $(document).ready(function(){
+      
     })
 
   </script>

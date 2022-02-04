@@ -38,12 +38,7 @@ $(document).ready(function(){
 	var footer = '';
 	footer += '<div class="container">';
         footer += '<div class="row">';
-			footer += '<div class="col l6 s12">';
-        		footer += '<p style="font-size: 0.8em;">This project was developed through a collaboration between SETDA and Dell Technologies. For additional information on building Personalized, Competency-Based Learning through Blended Learning, please contact <a href="https://www.setda.org/" target="_blank">SETDA</a> or <a href="contact.html">Dell Technologies</a>.</p>';
-        		footer += '<p class="grey-text text-lighten-4" style="font-size: 0.8em;">For more information on how this site uses cookies and to manage your cookie settings, <a href="cookies.html">click here</a>.</p>';
-        		footer += '<p class="grey-text text-lighten-4" style="font-size: 0.8em;">Except where otherwise noted, this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons license CC BY-NC-SA 4.0</a>.</p>';
-        	footer += '</div>';
-      		footer += '<div class="col l4 offset-l2 s12">';
+			footer += '<div class="col l4 s12">';
         		footer += '<ul>';
             		footer += '<li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>';
 					footer += '<li><a class="grey-text text-lighten-3" href="definitions.html">Definitions</a></li>';
@@ -52,6 +47,11 @@ $(document).ready(function(){
 					footer += '<li><a class="grey-text text-lighten-3" href="resources.html">Resources</a></li>';
 					footer += '<li><a class="grey-text text-lighten-3" href="about.html">About</a></li>';
         		footer += '</ul>';
+        	footer += '</div>';
+			footer += '<div class="col l6 offset-l2 s12">';
+        		footer += '<p style="font-size: 0.8em;">This project was developed through a collaboration between SETDA and Dell Technologies. For additional information on building Personalized, Competency-Based Learning through Blended Learning, please contact <a href="https://www.setda.org/" target="_blank">SETDA</a> or <a href="contact.html">Dell Technologies</a>.</p>';
+        		footer += '<p class="grey-text text-lighten-4" style="font-size: 0.8em;">For more information on how this site uses cookies and to manage your cookie settings, <a href="cookies.html">click here</a>.</p>';
+        		footer += '<p class="grey-text text-lighten-4" style="font-size: 0.8em;">Except where otherwise noted, this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">Creative Commons license CC BY-NC-SA 4.0</a>.</p>';
         	footer += '</div>';
         footer += '</div>';
   	footer += '</div>';
@@ -459,6 +459,38 @@ $(document).ready(function(){
 			sessionStorage.setItem(id, text);
 
 			$(`.${id}`).html(text);
+		})
+
+		var optionalCookies = sessionStorage.getItem('optionalCookies');
+
+		// handle cookies
+		if(optionalCookies == null){
+			var modalHTML = '';
+			modalHTML += `<div id="modal1" class="modal">`;
+				modalHTML += `<div class="modal-content">`;
+					// modalHTML += `<h4>Modal Header</h4>`;
+					modalHTML += `<p>This site uses cookies and similar technologies to help tailor your experience, to save your work, and to tell us which parts of the website you have visited. Some of these cookies (personalization, saving work) are required for the site to function properly, whereas others (page analytics) help us understand how to improve the site's user experience.</p>`;
+				modalHTML += `</div>`;
+				modalHTML += `<div class="modal-footer">`;
+					modalHTML += `<a href="#!" class="modal-close waves-effect dell white-text btn-flat accept-all">Accept All</a>`;
+					modalHTML += `<a href="cookies.html" class="modal-close waves-effect waves-green btn-flat manage-cookies">Manage Cookies</a>`;
+				modalHTML += `</div>`;
+			modalHTML += `</div>`;
+
+			$("body").append(modalHTML);
+			$('.modal').modal({
+				dismissible: false
+			});
+			$('.modal').modal('open');
+		}
+
+		$(".accept-all").click(function(){
+			sessionStorage.setItem('optionalCookies', 'true');
+			$("input[name='cookies']").prop('checked', true);
+		})
+		$(".manage-cookies").click(function(){
+			sessionStorage.setItem('optionalCookies', 'false');
+			$("input[name='cookies']").prop('checked', false);
 		})
 	})
 
